@@ -1,0 +1,58 @@
+nav {
+  position: fixed;
+  top: 0px;
+  z-index: 11;
+  width: 100%;
+  background-color: rgba(10, 25, 47, 0.85);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  transition: var(--transition);
+  font-family: var(--font-mono);
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  padding: 20px 40px;
+}
+
+.links ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links ul li {
+  list-style: none;
+  padding: 0 20px;
+}
+.links ul li a {
+  text-decoration: none;
+  color: var(--main);
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.25s;
+}
+
+.links ul li a span {
+  color: var(--green);
+  padding: 0 6px;
+}
+
+.links ul li:last-child a {
+  color: var(--green);
+  border: 1px solid var(--green);
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 0.25s;
+}
+.links ul li a:hover {
+  color: var(--green);
+}
+.links ul li:last-child:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,90 @@
+.intro-center-main {
+  height: 100vh;
+  padding: 0px;
+}
+
+.center-container {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 0px;
+}
+
+.intro-intro {
+  margin: 0px 0px 30px 4px;
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
+}
+
+.intro-name {
+  color: var(--lightest-slate);
+  font-weight: 700;
+  font-size: 4.3rem;
+}
+
+.intro-main {
+  margin-top: 20px;
+  font-weight: 700;
+  color: var(--main);
+  line-height: 0.9;
+  font-size: 4rem;
+}
+.intro-sub {
+  color: var(--main);
+  font-weight: normal;
+  margin: 20px 0px 0px;
+  max-width: 540px;
+  line-height: 1.6;
+}
+
+.intro-button {
+  color: var(--green);
+  background-color: transparent;
+  border: 1px solid var(--green);
+  border-radius: var(--border-radius);
+  padding: 1.25rem 1.75rem;
+  font-size: var(--fz-sm);
+  font-family: var(--font-mono);
+  line-height: 1;
+  font-weight: normal;
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-top: 50px;
+}
+
+.intro-button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .center-container {
+    min-height: 100vh;
+
+  }
+  .intro-intro {
+    font-weight:lighter;
+    letter-spacing: 1.2px;
+  margin: 0px 0px 10px 4px;
+
+  }
+  .intro-name {
+    font-size: 2.3rem;
+  }
+  .intro-main {
+    font-size: 2.2rem;
+    margin-top: 10px;
+  }
+  .intro-sub {
+    text-align: left;
+  }
+  .intro-button {
+    padding: 1rem 1rem;
+    margin-top: 40px;
+  }
+}

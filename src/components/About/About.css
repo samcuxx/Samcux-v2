@@ -1,0 +1,145 @@
+.about {
+  color: var(--slate);
+  min-height: 100vh;
+  margin: 0 auto;
+  visibility: visible;
+  opacity: 1;
+}
+.head {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 0px 40px;
+  width: 100%;
+  font-size: clamp(26px, 5vw, var(--fz-heading));
+  white-space: nowrap;
+}
+.head span {
+  position: relative;
+  bottom: 4px;
+  counter-increment: section 1;
+  content: "0" counter(section) ".";
+  margin-right: 10px;
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
+  font-weight: 400;
+}
+.head .hline {
+  display: block;
+  width: 300px;
+  height: 1px;
+  margin-left: 20px;
+  background-color: var(--lightest-navy);
+}
+
+.about-main {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 50px;
+}
+
+.about-main-left-top p {
+  font-weight: 400;
+  font-family: var(--font-sans);
+  line-height: 1.7;
+  margin: 0px 0px 15px;
+}
+
+.about-main-right {
+  position: relative;
+  max-width: 300px;
+}
+
+p {
+  margin: 0px 0px 15px;
+}
+
+.about-main-left-buttom ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  gap: 0px 10px;
+  padding: 0 0 0 9px;
+  margin: 20px 0px 0px;
+  overflow: hidden;
+}
+.about-main-left-buttom ul li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  font-family: var(--font-mono);
+  font-size: var(--fz-xs);
+}
+
+.about-main-left-buttom ul li::marker {
+  content: "▹";
+  position: absolute;
+  left: 0px;
+  color: var(--green);
+  font-size: var(--fz-sm);
+  line-height: 12px;
+}
+
+.about-main-right-image {
+  /* background: #000; */
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+}
+
+.about-main-right-image-wrapper img:first-child {
+  transition: all 0.25s;
+  border-radius: 5px;
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+}
+
+.about-main-right-image-wrapper img:last-child {
+  transition: all 0.25s;
+  border-radius: 5px;
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  z-index: 3;
+}
+
+.about-main-right-image-wrapper img:last-child:hover {
+  border-radius: 15px;
+  display: none;
+}
+
+.about-main-right-image-wrapper img:first-child:hover {
+  transform: scale(1.1);
+  z-index: 5;
+}
+
+@media (max-width: 768px)  {
+.about {
+  height: 160vh;
+ 
+}
+ 
+  .about-main {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .about-main-right {
+    display: block;
+  }
+  .about-main-left-top p {
+    line-height: 1.4;
+  }
+  .about-main-right-image{
+    margin: 0 auto;
+  }
+ 
+
+}

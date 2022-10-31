@@ -1,0 +1,127 @@
+.otherprojectMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.otherproject-heading {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.otherproject-heading a {
+  font-family: var(--font-mono);
+}
+
+.otherproject-container-ul {
+  width: 100%;
+  padding: 0;
+  margin: 50px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.otherproject-container-ul li {
+  position: static;
+  margin: 10px;
+  overflow: hidden;
+  width: 24%;
+  background: var(--light-navy);
+  padding: 40px;
+  transition: all 0.25s;
+  border-radius: 5px;
+}
+
+.otherproject-container-ul li:hover {
+  margin-top: -2px;
+}
+
+.otherproject-list-link {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.folder-logo svg {
+  width: 40px;
+  height: 40px;
+}
+
+.folder-links svg {
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+}
+.folder-links svg:hover {
+  stroke: var(--green);
+}
+.folder-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.otherproject-list-title {
+  font-size: 1.2rem;
+  padding: 10px 0;
+}
+
+.otherproject-list-title a {
+  color: var(--lightest-slate);
+}
+
+.otherproject-list-title a:hover {
+  color: var(--green);
+}
+
+.otherproject-list-des {
+  color: var(--main);
+}
+
+.otherproject-footer {
+  margin: 10px 0 0 0;
+  padding: 0;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  color: var(--main);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+}
+.otherbtn{
+  margin: 30px 0 100px 0;
+}
+/* ----------------Media Queries--------------- */
+
+
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 768px) {
+  .otherproject-container-ul {
+    flex-direction: column;
+  }
+
+  .otherproject-container-ul li {
+    min-width: 70%;
+  }
+  .otherbtn{
+    margin: 30px 0 100px 0;
+  }
+}
+
+@media (min-width: 650px) {
+  .otherproject-container-ul {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .otherproject-container-ul li {
+    min-width: 30%;
+  }
+}

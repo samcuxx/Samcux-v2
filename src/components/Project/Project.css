@@ -1,0 +1,128 @@
+.project-container {
+  width: 90%;
+  max-width: 100%;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+
+.project-right-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.project-left {
+  width: 90%;
+  height: 65vh;
+  background: url("./dell.jpg") no-repeat center / cover;
+  border-radius: 8px;
+}
+.project-right {
+  /* width: 80%; */
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-left: -150px;
+}
+.Project-Featured {
+  font-size: 0.9rem;
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-weight: 400;
+}
+.Project-title {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  color: var(--white);
+  font-family: var(--font-sans);
+}
+
+.Project-des {
+  box-shadow: 0 10px 30px -15px var(--navy-shadow);
+  transition: var(--transition);
+  position: relative;
+  z-index: 2;
+  padding: 25px;
+  border-radius: var(--border-radius);
+  background-color: var(--light-navy);
+  color: var(--light-slate);
+  font-size: var(--fz-lg);
+  margin-top: 20px;
+}
+
+.tech {
+  color: var(--light-slate);
+  width: 90%;
+  font-size: 0.8rem;
+  font-family: var(--font-mono);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tech li {
+  list-style: none;
+}
+.link a {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    display: block;
+  }
+  .project-main-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-container {
+    max-width: 550px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-left {
+    display: none;
+  }
+  .project-right-content {
+    border-radius: var(--border-radius);
+    background-color: var(--light-navy);
+    background-color: rgb(4, 34, 43);
+    /* background: url("./dell.jpg") no-repeat center / cover; */
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 40px;
+    transition: var(--transition);
+  }
+  .project-right {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .Project-title {
+    margin-top: 5px;
+  }
+  .Project-des {
+    position: relative;
+    padding: 0;
+    border-radius: none;
+    background: transparent;
+    
+  }
+  .tech {
+    padding: 0;
+  }
+}

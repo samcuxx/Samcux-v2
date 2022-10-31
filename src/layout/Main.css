@@ -1,0 +1,21 @@
+.content-main {
+    padding: 0px 150px;
+    /* justify-content: space-between; */
+  }
+  
+
+  
+
+/* ----------------Media Queries--------------- */
+
+
+@media (max-width: 768px) {
+
+  .content-main {
+    padding: 0px 20px;
+
+  }
+  
+}
+
+
