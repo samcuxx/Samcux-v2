@@ -121,7 +121,7 @@ p {
 @media (max-width: 768px)  {
 .about {
   height: 160vh;
- 
+ text-align: center;
 }
  
   .about-main {

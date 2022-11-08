@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const OtherProjectEach = ({ title, description, skill }) => {
   return (
-    <li className="otherProjectEach">
+    <Link className="otherProjectEach">
       <div className="otherproject-list-link">
         <div className="folder-logo">
           <svg
@@ -72,7 +73,7 @@ const OtherProjectEach = ({ title, description, skill }) => {
         {/* <div>Algolia</div>
         <div>Algolia</div> */}
       </ul>
-    </li>
+    </Link>
   );
 };
 

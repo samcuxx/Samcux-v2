@@ -32,8 +32,9 @@
   font-weight: 700;
   color: var(--main);
   line-height: 0.9;
-  font-size: 4rem;
+  font-size: 4.1rem;
   padding-bottom: 1.5rem;
+
 }
 .intro-sub {
   color: var(--main);
