@@ -3,7 +3,9 @@ import React from 'react'
 const ProjectContainer = () => {
   return (
     <div class="project-container">
-            <div class="project-left"></div>
+            <div class="project-left">
+              
+            </div>
             <div class="project-right">
               <div class="project-right-content">
                 <h3 className="Project-Featured">Featured Project</h3>

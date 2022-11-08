@@ -1,4 +1,6 @@
-
+.left{
+  padding: 0 150px;
+}
 
 .main-links {
   position: fixed;
@@ -6,6 +8,7 @@
   left: 40px;
   right: auto;
   z-index: 10;
+ 
 }
 
 .main-links ul {

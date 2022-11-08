@@ -17,6 +17,7 @@ const Project = () => {
           <ProjectContainer/>
           <ProjectContainer/>
           <ProjectContainer/>
+         
           {/* <ProjectFlip/> */}
         </div>
       </div>
