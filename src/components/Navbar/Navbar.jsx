@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import logo from "../../logo.svg";
+import { Link, NavLink } from "react-router-dom";
+import logo from "../../assets/images/logo.png";
 import "./Navbar.css";
 import { useScroll } from "./UseScroll";
 const Navbar = () => {
@@ -38,36 +39,38 @@ const Navbar = () => {
     <nav style={homieScroll()}>
       <div className="container">
         <div className="logo">
-          <img width="70px" src={logo} alt="" />
+          <a href="/">
+          <img width="50px" src={logo} alt="" />
+          </a>
         </div>
         <div className={btnState ? "nav-links-mobile" : "links"}>
           <ul>
             <li>
-              <a href="#">
+              <a href="#about">
                 <span>01.</span>About
               </a>
             </li>
-            <li>
+            <li style={{display:"none"}}>
               <a href="#">
                 <span>02.</span>Experience
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#work">
                 <span>03.</span>Work
               </a>
             </li>
             <li>
-              <a href="#">
+              <a to="#contact">
                 <span>04.</span>Contact
               </a>
             </li>
             <li>
-              <a className="button" href="#">
+              <Link id="button" className="button" href="#">
                 Resume
-              </a>
+              </Link>
             </li>
-            <div onClick={()=>handleMenuIconClick()}  className={`menu-icon ${toggleClassCheck}`}>
+            <div id="menu-btn" onClick={()=>handleMenuIconClick()}  className={`menu-icon ${toggleClassCheck}`}>
                <div class="menu-icon-container" onclick="myFunction(this)">
               <div class="bar1"></div>
               <div class="bar2"></div>

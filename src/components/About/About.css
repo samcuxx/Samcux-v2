@@ -85,8 +85,12 @@ p {
 }
 .about-image-cover{
   background-color: var(--green);
-
+  opacity: .6;
   border-radius: 12px;
+}
+.about-image-cover:hover{
+  opacity: 1;
+
 }
 .about-main-right-image {
   border-radius: 12px;

@@ -5,7 +5,7 @@ import profileGreen from "../../assets/images/profilegreen.jpg";
 
 const About = () => {
   return (
-    <section className="about">
+    <section id="about" className="about">
       <h2 className="head">
         <div className="span">
           <span>01.</span>

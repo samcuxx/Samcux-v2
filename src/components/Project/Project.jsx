@@ -4,7 +4,7 @@ import ProjectContainer from "./ProjectContainer";
 import ProjectFlip from "./ProjectFlip";
 const Project = () => {
   return (
-    <div className="projects">
+    <div id="work" className="projects">
       <h2 className="head">
         <div className="span">
           <span>02.</span>
