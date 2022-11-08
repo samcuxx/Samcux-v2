@@ -101,19 +101,11 @@
 
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   
 
+  .otherprojectMain{
+    margin-top: 100px;
+  }
  
-}
-
-@media (min-width: 650px) {
-  .otherproject-container-ul {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .otherproject-container-ul li {
-    min-width: 30%;
-  }
 }

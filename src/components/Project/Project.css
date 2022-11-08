@@ -77,6 +77,7 @@ width: 100%;
 
 @media (max-width: 768px) {
   .projects {
+    margin-top: 100px;
     display: block;
   }
   .project-main-main {

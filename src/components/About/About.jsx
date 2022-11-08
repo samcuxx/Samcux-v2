@@ -18,36 +18,40 @@ const About = () => {
           <div className="about-main-left-top">
             <p>
               Hello! My name is Brittany and I enjoy creating things that live
-              on   the internet. My interest in web development started
-              back in 2012
-                when I decided to try editing custom Tumblr themes — turns
-              out  hacking together a custom reblog button taught me a lot
-              about
-               
+              on the internet. My interest in web development started back in
+              2012 when I decided to try editing custom Tumblr themes — turns
+              out hacking together a custom reblog button taught me a lot about
               HTML & CSS!
             </p>
             <p>
               Fast-forward to today, and I’ve had the privilege of working at
-                <a className="hover-underline-animation" href="#"> an advertising agency</a>,
-              <a className="hover-underline-animation" href="#"> a start-up</a>,<a className="hover-underline-animation" href="#"> a huge corporation</a>,
-                and
+              <a className="hover-underline-animation" href="#">
+                {" "}
+                an advertising agency
+              </a>
+              ,
+              <a className="hover-underline-animation" href="#">
+                {" "}
+                a start-up
+              </a>
+              ,
+              <a className="hover-underline-animation" href="#">
+                {" "}
+                a huge corporation
+              </a>
+              , and
               <a className="hover-underline-animation" href="">
-
                 a student-led design studio
               </a>
-              . My main focus these days is building
-           
-              accessible, 
-              inclusive products and digital experiences at
+              . My main focus these days is building accessible, inclusive
+              products and digital experiences at
               <a className="hover-underline-animation" href="#">
-               
                 Upstatement
               </a>
               for a variety of clients.
             </p>
             <p>
               I also recently launched a course that covers everything you need
-               
               to build a web app with the Spotify API using Node & React.
             </p>
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -64,11 +68,8 @@ const About = () => {
           </div>
         </div>
         <div className="about-main-right">
-          <div className="about-main-right-image">
-            <div className="about-main-right-image-wrapper">
-              <img src={profile} width="500px" alt="" />
-              <img src={profileGreen} width="500px" alt="" />
-            </div>
+          <div className="about-image-cover">
+          <img className="about-main-right-image" src={profile} alt="" />
           </div>
         </div>
       </div>
