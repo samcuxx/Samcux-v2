@@ -1,13 +1,16 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../../logo.svg";
 import "./Navbar.css";
 import { useScroll } from "./UseScroll";
 const Navbar = () => {
-  const {y , x, scrollDirection } = useScroll();
+  const [btnState, setbtnState] = useState(false)
+  const { y, x, scrollDirection } = useScroll();
+
+
   const styles = {
     active: {
       visibility: "visible",
-      transition: "all 0.5s"
+      transition: "all 0.5s",
     },
     hidden: {
       visibility: "hidden",
@@ -15,13 +18,21 @@ const Navbar = () => {
       transform: "translateY(-100%)",
     },
   };
-const homieScroll =() =>{
-  if (window.pageYOffset) {
-  return  scrollDirection === "down" ? styles.active : styles.hidden
+  const homieScroll = () => {
+    if (window.pageYOffset) {
+      return scrollDirection === "down" ? styles.active : styles.hidden;
+    }
+  };
+
+
+
+  function handleMenuIconClick(event){
+  
+    setbtnState(btnState => !btnState);
   }
 
-}
 
+  let toggleClassCheck = btnState ? "change" : ""
 
   return (
     <nav style={homieScroll()}>
@@ -29,10 +40,10 @@ const homieScroll =() =>{
         <div className="logo">
           <img width="70px" src={logo} alt="" />
         </div>
-        <div className="links">
+        <div className={btnState ? "nav-links-mobile" : "links"}>
           <ul>
             <li>
-              <a href="#" >
+              <a href="#">
                 <span>01.</span>About
               </a>
             </li>
@@ -56,6 +67,14 @@ const homieScroll =() =>{
                 Resume
               </a>
             </li>
+            <div onClick={()=>handleMenuIconClick()}  className={`menu-icon ${toggleClassCheck}`}>
+               <div class="menu-icon-container" onclick="myFunction(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+            </div>
+           
           </ul>
         </div>
       </div>

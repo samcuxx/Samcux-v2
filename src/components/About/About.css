@@ -86,8 +86,11 @@ p {
 .about-image-cover{
   background-color: var(--green);
 
+  border-radius: 12px;
 }
 .about-main-right-image {
+  border-radius: 12px;
+  display: block;
   object-fit: cover;
   opacity: 0.5;
   max-width: 400px;
