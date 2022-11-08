@@ -1,4 +1,3 @@
-
 .right-container {
   position: fixed;
   bottom: 0px;
@@ -6,11 +5,9 @@
   right: 40px;
   z-index: 10;
   color: var(--light-slate);
-  
 }
 
 .email-text {
- 
   margin: 20px auto;
   padding: 10px;
   font-family: var(--font-mono);
@@ -19,7 +16,7 @@
   letter-spacing: 0.1em;
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
-  transition: all .25s;
+  transition: all 0.25s;
   cursor: pointer;
 }
 
@@ -36,17 +33,17 @@
   background-color: var(--light-slate);
 }
 
-
-
-
 /* ----------------Media Queries--------------- */
 
-
-@media (max-width: 768px){
-
-  
-  .right{
+@media (max-width: 768px) {
+  .right {
     display: none;
   }
-  
+}
+
+
+@media (max-width: 1080px) {
+  .right-container {
+    right: 30px;
+  }
 }

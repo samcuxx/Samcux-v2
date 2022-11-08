@@ -21,7 +21,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  display: inline-flex;
+  justify-content: center;
 }
 .otherproject-container-ul .otherProjectEach {
   margin: 6px;
@@ -107,5 +107,6 @@
   .otherprojectMain{
     margin-top: 100px;
   }
- 
+  
 }
+

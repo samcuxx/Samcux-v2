@@ -54,10 +54,20 @@
 
 
 @media (max-width: 768px) {
-
+  
   
   .left{
     display: none;
   }
   
+}
+
+@media (max-width: 1080px) {
+  .left{
+    padding: 0 100px;
+  }
+
+  .main-links {
+    left: 30px;
+  }
 }

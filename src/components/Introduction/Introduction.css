@@ -89,3 +89,30 @@
     margin-top: 40px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .center-container {
+    min-height: 100vh;
+  }
+  .intro-intro {
+    font-weight: lighter;
+    letter-spacing: 1.2px;
+    margin: 0px 0px 10px 4px;
+  }
+  .intro-name {
+    font-size: 3.2rem;
+    margin-top: 10px;
+  }
+  .intro-main {
+    font-size: 3.1rem;
+    margin-top: 20px;
+  }
+  .intro-sub {
+margin: 0;
+    text-align: left;
+  }
+  .intro-button {
+    padding: 1rem 1rem;
+    margin-top: 40px;
+  }
+}

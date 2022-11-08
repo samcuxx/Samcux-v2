@@ -28,14 +28,14 @@ nav .container {
 
 .links ul li {
   list-style: none;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 .links ul li a {
   text-decoration: none;
-  color: var(--main);
+  color: var(--lightest-slate);
   font-size: 14px;
-  font-weight: 500;
-  transition: all 0.25s;
+  font-weight: 400;
+  transition: var(--transition);
 }
 
 .links ul li a span {

@@ -123,3 +123,13 @@ p {
  
 
 }
+
+
+@media (max-width: 1080px) {
+  .about-main-right-image{
+    max-width: 300px;
+      opacity: 1;
+    }
+  
+  
+}
