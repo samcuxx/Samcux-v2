@@ -95,6 +95,7 @@ nav .container {
   transform: translate(0, -11px) rotate(45deg);
 }
 
+.menu-icon{}
 
 
 /* sidenav */
@@ -141,7 +142,8 @@ nav .container {
   }
   
   .nav-links-mobile ul{
-
+    
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -153,13 +155,17 @@ nav .container {
   }
   
   .nav-links-mobile ul li{
-    /* font-size: 1.8rem; */
+    font-size: 1.3rem;
     text-align: center;
   }
-  
+
   .nav-links-mobile ul li a{
     color: var(--lightest-slate);
     display: block;
+  }
+  .nav-links-mobile ul li a:active{
+    color: var(--green);
+
   }
   .nav-links-mobile ul li a span{
     color: var(--green);

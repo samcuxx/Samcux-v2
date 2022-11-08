@@ -6,7 +6,7 @@ const OtherProject = () => {
   const [showMore, setshowMore] = useState(false);
   const [btnText, setbtnText] = useState('View More')
 
-  const numberOfItems = showMore ? List.length : 3;
+  const numberOfItems = showMore ? List.length : 4;
 
   return (
     <section>
