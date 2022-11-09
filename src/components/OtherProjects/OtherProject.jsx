@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./OtherProject.css";
 import OtherProjectEach from "./OtherProjectEach";
 import List from "./List";
+import { Link } from "react-router-dom";
 const OtherProject = () => {
   const [showMore, setshowMore] = useState(false);
   const [btnText, setbtnText] = useState('View More')
@@ -13,9 +14,9 @@ const OtherProject = () => {
       <div className="otherprojectMain">
         <div className="otherproject-heading">
           <h2>Other Noteworthy Projects</h2>
-          <a href="/archive" className="hover-underline-animation">
+          <Link to="/archive" className="hover-underline-animation">
             view the archive
-          </a>
+          </Link>
         </div>
         <div className="otherproject-container">
           <ul className="otherproject-container-ul">
