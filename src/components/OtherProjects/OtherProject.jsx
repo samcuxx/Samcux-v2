@@ -5,7 +5,7 @@ import List from "./List";
 import { Link } from "react-router-dom";
 const OtherProject = () => {
   const [showMore, setshowMore] = useState(false);
-  const [btnText, setbtnText] = useState('View More')
+  // const [btnText, setbtnText] = useState('View More')
 
   const numberOfItems = showMore ? List.length : 6;
 

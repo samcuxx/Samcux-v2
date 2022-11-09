@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 import "./Navbar.css";
 import { useScroll } from "./UseScroll";
 const Navbar = () => {
   const [btnState, setbtnState] = useState(false)
-  const { y, x, scrollDirection } = useScroll();
+  const { scrollDirection } = useScroll();
 
 
   const styles = {
