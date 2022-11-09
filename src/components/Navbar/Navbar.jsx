@@ -38,14 +38,13 @@ const Navbar = () => {
   let toggleClassCheck = btnState ? "change" : "";
 
   useEffect(() => {
-    gsap.from(".logo-img", {
+    gsap.from(homie, {
       duration: 2,
       y: -10,
-      backgroundColor: "blue",
       ease: "bounce",
     });
 
-    gsap.from(".linkani", { duration: 1, opacity: 0, y: -150 ,stagger:0.25 });
+    gsap.from(navlinkseach, { duration: 1, opacity: 0, y: -150 ,stagger:0.25 });
   });
 
   return (
