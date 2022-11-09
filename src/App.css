@@ -57,7 +57,9 @@ footer{
   transform-origin: bottom left;
 }
 
-
+svg:hover{
+  stroke: var(--green);
+}
 
 /*  */
 @media (max-width: 768px)  {

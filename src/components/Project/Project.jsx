@@ -1,6 +1,7 @@
 import React from "react";
 import "./Project.css";
 import ProjectContainer from "./ProjectContainer";
+import ProjectContainerLast from "./ProjectContainerLast";
 import ProjectFlip from "./ProjectFlip";
 const Project = () => {
   return (
@@ -16,7 +17,7 @@ const Project = () => {
         <div className="project-main-main">
           <ProjectContainer />
           <ProjectFlip />
-          <ProjectContainer />
+          <ProjectContainerLast />
         </div>
       </div>
     </div>

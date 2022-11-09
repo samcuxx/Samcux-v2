@@ -6,7 +6,7 @@ const Left = () => {
       <div className="main-links">
         <ul>
           <li>
-            <a href="">
+            <a href="https://github.com/lilyoo226">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -24,7 +24,7 @@ const Left = () => {
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://instagram.com/adoberich">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -44,7 +44,7 @@ const Left = () => {
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://twitter.com/samuellove226">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -62,7 +62,7 @@ const Left = () => {
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://fb.com/adoberich">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -73,7 +73,7 @@ const Left = () => {
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="feather feather-linkedin"
+                class="feather feather-facebook"
               >
                 <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
                 <rect x="2" y="9" width="4" height="12"></rect>
@@ -82,7 +82,7 @@ const Left = () => {
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://www.youtube.com/channel/UC9SxlcEpkHFkG0msmzw1MCA">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
