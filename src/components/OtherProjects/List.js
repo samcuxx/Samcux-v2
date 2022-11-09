@@ -1,75 +1,12 @@
 const List = [
   {
-    title: "Integrating Algolia Search with WordPress Multisite",
+    title: "deckOfCard-Game",
     description:
-      "Building websites for higher-ed is not for the faint of heart. Unless executed properly.",
-    skill: "React",
-  },
-  {
-    title: "Integrating Algolia Search with WordPress Multisite",
-    description:
-      "Building websites for higher-ed is not for the faint of heart. Unless executed properly.",
-    skill: "React",
-  },
-  {
-    title: "Integrating Algolia Search with WordPress Multisite",
-    description:
-      "Building websites for higher-ed is not for the faint of heart. Unless executed properly.",
-    skill: "React",
-  },
-  {
-    title: "Integrating Algolia Search with WordPress Multisite",
-    description:
-      "Building websites for higher-ed is not for the faint of heart. Unless executed properly.",
-    skill: "React",
-  },
-  {
-    title: "Integrating Algolia Search with WordPress Multisite",
-    description:
-      "Building websites for higher-ed is not for the faint of heart. Unless executed properly.",
-    skill: "React",
-  },
-  {
-    title: "Integrating Algolia Search with WordPress Multisite",
-    description:
-      "Building websites for higher-ed is not for the faint of heart. Unless executed properly.",
-    skill: "React",
-  },
-  {
-    title: "Integrating Algolia Search with WordPress Multisite",
-    description:
-      "Building websites for higher-ed is not for the faint of heart. Unless executed properly.",
-    skill: "React",
-  },
-  {
-    title: "Integrating Algolia Search with WordPress Multisite",
-    description:
-      "Building websites for higher-ed is not for the faint of heart. Unless executed properly.",
-    skill: "React",
-  },
-  {
-    title: "Integrating Algolia Search with WordPress Multisite",
-    description:
-      "Building websites for higher-ed is not for the faint of heart. Unless executed properly.",
-    skill: "React",
-  },
-  {
-    title: "Integrating Algolia Search with WordPress Multisite",
-    description:
-      "Building websites for higher-ed is not for the faint of heart. Unless executed properly.",
-    skill: "React",
-  },
-  {
-    title: "Integrating Algolia Search with WordPress Multisite",
-    description:
-      "Building websites for higher-ed is not for the faint of heart. Unless executed properly.",
-    skill: "React",
-  },
-  {
-    title: "Integrating Algolia Search with WordPress Multisite",
-    description:
-      "Building websites for higher-ed is not for the faint of heart. Unless executed properly.",
-    skill: "React",
+      "this is a game i build using the Deck of Card Api. It is a very Amazing game",
+    projectLinkGithub: "https://github.com/lilyoo226/deckOfCard-Game",
+    siteLink: "https://deckofcardsgame.netlify.app/",
+
+    skill: "Html  JavaScript  CSS",
   },
 ];
 

@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-const OtherProjectEach = ({ title, description, skill }) => {
+
+const OtherProjectEach = ({ title, description, projectLinkGithub,siteLink,skill }) => {
   return (
-    <Link className="otherProjectEach">
+    <a className="otherProjectEach" href={siteLink}>
       <div className="otherproject-list-link">
         <div className="folder-logo">
           <svg
@@ -22,7 +22,7 @@ const OtherProjectEach = ({ title, description, skill }) => {
           </svg>
         </div>
         <div className="folder-links">
-          <a href="">
+          <a href={projectLinkGithub}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -39,7 +39,7 @@ const OtherProjectEach = ({ title, description, skill }) => {
             </svg>
           </a>
 
-          <a href="">
+          <a href={siteLink}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -60,7 +60,7 @@ const OtherProjectEach = ({ title, description, skill }) => {
         </div>
       </div>
       <h3 className="otherproject-list-title">
-        <a href="#">{title}</a>
+        <a href={siteLink}>{title}</a>
       </h3>
       <div className="otherproject-list-des">
         <p>
@@ -70,10 +70,8 @@ const OtherProjectEach = ({ title, description, skill }) => {
 
       <ul className="otherproject-footer">
         <div>{skill}</div>
-        {/* <div>Algolia</div>
-        <div>Algolia</div> */}
       </ul>
-    </Link>
+    </a>
   );
 };
 
