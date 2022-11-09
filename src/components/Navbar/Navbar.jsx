@@ -1,18 +1,12 @@
-import gsap from "gsap";
-import React, { useState } from "react";
-import { useRef } from "react";
-import { useEffect } from "react";
-
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 import "./Navbar.css";
 import { useScroll } from "./UseScroll";
 const Navbar = () => {
-  const [btnState, setbtnState] = useState(false);
+  const [btnState, setbtnState] = useState(false)
   const { y, x, scrollDirection } = useScroll();
 
-  let homie = useRef();
-  let navlinkseach = useRef();
 
   const styles = {
     active: {
@@ -31,79 +25,59 @@ const Navbar = () => {
     }
   };
 
-  function handleMenuIconClick(event) {
-    setbtnState((btnState) => !btnState);
+
+
+  function handleMenuIconClick(event){
+  
+    setbtnState(btnState => !btnState);
   }
 
-  let toggleClassCheck = btnState ? "change" : "";
 
-  useEffect(() => {
-    gsap.from(homie, {
-      duration: 2,
-      y: -10,
-      ease: "bounce",
-    });
-
-    gsap.from(navlinkseach, { duration: 1, opacity: 0, y: -150 ,stagger:0.25 });
-  });
+  let toggleClassCheck = btnState ? "change" : ""
 
   return (
     <nav style={homieScroll()}>
       <div className="container">
         <div className="logo">
-          <a href="/">
-            <img
-              useRef={homie}
-              className="logo-img"
-              width="50px"
-              src={logo}
-              alt=""
-            />
-          </a>
+          <Link to="/">
+          <img width="50px" src={logo} alt="" />
+          </Link>
         </div>
         <div className={btnState ? "nav-links-mobile" : "links"}>
           <ul>
             <li>
-              <a className="linkani" useRef={navlinkseach} href="#about">
+              <Link to="/#about">
                 <span>01.</span>About
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="linkani" useRef={navlinkseach} href="/archive">
+              <Link to="/archive">
                 <span>02.</span>Archive
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="linkani" useRef={navlinkseach} href="#work">
+              <Link to="/#work">
                 <span>03.</span>Work
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="linkani" useRef={navlinkseach} href="#contact">
+              <Link to="#contact">
                 <span>04.</span>Contact
-              </a>
+              </Link>
             </li>
             <li>
-              <Link
-                useRef={navlinkseach}
-                id="button"
-                className="button linkani"
-                href="#"
-              >
+              <Link id="button" className="button" href="#">
                 Resume
               </Link>
             </li>
-            <div
-              id="menu-btn"
-              onClick={() => handleMenuIconClick()}
-              className={`menu-icon ${toggleClassCheck}`}
-            >
-              <div class="menu-icon-container" onclick="myFunction(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-              </div>
+            <div id="menu-btn" onClick={()=>handleMenuIconClick()}  className={`menu-icon ${toggleClassCheck}`}>
+               <div class="menu-icon-container" onclick="myFunction(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
             </div>
+            </div>
+           
           </ul>
         </div>
       </div>
