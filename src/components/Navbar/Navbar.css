@@ -20,6 +20,8 @@ nav .container {
   padding: 20px 40px;
 }
 
+
+
 .links ul {
   display: flex;
   justify-content: space-between;
@@ -30,6 +32,8 @@ nav .container {
   list-style: none;
   padding: 0 10px;
 }
+
+
 .links ul li a {
   text-decoration: none;
   color: var(--lightest-slate);

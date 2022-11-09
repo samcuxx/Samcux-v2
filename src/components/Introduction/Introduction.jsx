@@ -1,9 +1,12 @@
 import React from 'react'
-
+import { Spring } from 'react-spring'
 import './Introduction.css'
 
 const Introduction = () => {
+
+
   return (
+
     <section className="intro-center-main">
     <div className="center-container">
       <h3 className="intro-intro">Hi, my name is</h3>

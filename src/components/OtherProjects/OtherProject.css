@@ -25,10 +25,10 @@
 }
 .otherproject-container-ul .otherProjectEach {
   margin: 6px;
-  max-width:240px;
+  max-width:250px;
   height: 100%;
   background: var(--light-navy);
-  padding: 40px;
+  padding: 30px;
   transition: all 0.25s;
   border-radius: 5px;
   overflow: auto;
@@ -66,25 +66,32 @@
 }
 
 .otherproject-list-title {
-  font-size: 1.2rem;
-  padding: 10px 0;
+  padding-top:30px ;
 }
 
 .otherproject-list-title a {
+  font-size: 1.1rem;
   color: var(--lightest-slate);
 }
 
 .otherproject-list-title a:hover {
   color: var(--green);
 }
+.otherproject-list-title a:hover {
+  color: var(--green);
+
+}
 
 .otherproject-list-des {
+  padding-top:15px ;
   color: var(--main);
+  font-size: .9rem;
+  font-weight: 600;
 }
 
 .otherproject-footer {
-  margin: 10px 0 0 0;
   padding: 0;
+  padding-top: 10px;
   width: 70%;
   display: flex;
   justify-content: space-between;

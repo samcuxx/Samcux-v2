@@ -74,7 +74,7 @@
 }
 
 .tech {
-  width: 100%;
+  width: 80%;
   color: var(--light-slate);
   font-size: 0.8rem;
   font-family: var(--font-mono);

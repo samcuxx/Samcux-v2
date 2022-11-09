@@ -62,6 +62,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: var(--navy);
   color: var(--white);
+  cursor: default;
 }
 
 

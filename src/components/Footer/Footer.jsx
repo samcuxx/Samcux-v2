@@ -92,7 +92,7 @@ const Footer = () => {
       </div>
       <div className="footer-text">
         <a className="hover-underline-animation" href="">
-          Designed & Built by Brittany Chiang
+          Designed & Built by Samuel Amoah
         </a>
       </div>
     </footer>

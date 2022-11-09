@@ -14,11 +14,9 @@ const Project = () => {
       </h2>
       <div className="section">
         <div className="project-main-main">
-          <ProjectContainer/>
-          <ProjectContainer/>
-          <ProjectContainer/>
-         
-          {/* <ProjectFlip/> */}
+          <ProjectContainer />
+          <ProjectFlip />
+          <ProjectContainer />
         </div>
       </div>
     </div>

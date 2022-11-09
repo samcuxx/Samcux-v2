@@ -1,5 +1,5 @@
 .intro-center-main {
-  height: 100vh;
+  min-height: 100vh;
   padding: 0px;
 }
 
@@ -38,7 +38,7 @@
 .intro-sub {
   color: var(--main);
   font-weight: normal;
-  margin: 20px 0px 0px;
+  margin: 10px 0px 0px;
   max-width: 540px;
   line-height: 1.6;
 }

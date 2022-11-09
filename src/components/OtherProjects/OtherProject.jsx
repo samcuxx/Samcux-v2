@@ -13,7 +13,7 @@ const OtherProject = () => {
       <div className="otherprojectMain">
         <div className="otherproject-heading">
           <h2>Other Noteworthy Projects</h2>
-          <a href="#" className="hover-underline-animation">
+          <a href="/archive" className="hover-underline-animation">
             view the archive
           </a>
         </div>

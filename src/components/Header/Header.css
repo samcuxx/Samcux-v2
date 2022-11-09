@@ -1,0 +1,21 @@
+#header{
+    padding-left: 20px;
+    margin-bottom: 100px;
+}
+.header-title {
+    font-size: 4.3rem;
+    font-weight: 700;
+      color: var(--lightest-slate);
+      line-height: 1.1;
+  }
+  
+  .header-description {
+      letter-spacing: .7px;
+      margin-top: 20px;
+    color: var(--green);
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: var(--font-mono);
+    
+  }
+  
