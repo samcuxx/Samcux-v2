@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 const OtherProjectEach = ({ title, description, projectLinkGithub,siteLink,skill }) => {
@@ -60,7 +61,8 @@ const OtherProjectEach = ({ title, description, projectLinkGithub,siteLink,skill
         </div>
       </div>
       <h3 className="otherproject-list-title">
-        <a href={siteLink}>{title}</a>
+        <Link to={siteLink}>{title}</Link>
+      
       </h3>
       <div className="otherproject-list-des">
         <p>
