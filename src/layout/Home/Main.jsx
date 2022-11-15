@@ -1,7 +1,7 @@
 import React from "react";
-import Center from "../components/Center/Center";
-import Left from "../components/Left/Left";
-import Right from "../components/Right/Right";
+import Center from "../../components/Center/Center";
+import Left from "../../components/Left/Left";
+import Right from "../../components/Right/Right";
 import "./Main.css";
 
 const Main = () => {

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import AnimatedLettersFast from '../RuberBand/RubberBand';
 import './Header.css'
-const Header = ({headerTitle}) => {
+const Header = ({headerTitle , des}) => {
 
   const [letterClass, setLetterClass] = useState("text-animate-fast");
   const introName = headerTitle.split("");
@@ -25,8 +25,7 @@ const Header = ({headerTitle}) => {
 
       </h1>
     <p className="header-description">
-      A big list of things I’ve worked on
-    </p>
+{des}    </p>
   </div>
   )
 }
