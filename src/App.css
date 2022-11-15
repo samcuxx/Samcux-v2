@@ -1,3 +1,18 @@
+.homie-colors{
+  --green: #ADCC2C;
+  --navy: #043031;
+  --light-navy: #1B4958;
+  --lightest-slate: #b7c7db;
+  --light-slate: #6797c9;
+  --slate: #7da9cf;
+  --main: #7da9cf;
+
+
+
+}
+
+
+
 h1 {
   font-size: clamp(40px, 8vw, 70px);
   line-height: 1.1;
