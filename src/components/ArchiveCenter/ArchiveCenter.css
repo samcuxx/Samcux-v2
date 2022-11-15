@@ -1,11 +1,11 @@
 .archiveCenter {
  
-  margin: 0px auto;
-  width: 100%;
+  margin: 0 auto;
+  /* width: 100%; */
   /* max-width: 1060px; */
   min-height: 100vh;
   max-width: 80%;
-  padding: 200px 0;
+  padding-top: 200px;
 }
 
 

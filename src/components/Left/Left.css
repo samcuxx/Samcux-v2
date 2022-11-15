@@ -48,6 +48,10 @@
   stroke: var(--green);
 }
 
+.left svg{
+  stroke: var(--light-slate);
+
+}
 
 
 /* ----------------Media Queries--------------- */

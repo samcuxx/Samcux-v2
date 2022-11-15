@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
-import profile from "../../assets/images/profile.jpg";
-import profileGreen from "../../assets/images/profilegreen.jpg";
+import profile from "../../assets/images/profileImage.jpg";
 
 const About = () => {
   return (

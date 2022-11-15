@@ -66,8 +66,8 @@
 
 }
 .text-animate-fast-hover:hover {
-    color: #73f9d9;
-    text-shadow: 2px 2px red;
+    color: var(--green);
+    text-shadow: 2px 2px var(--light-slate);
     animation: rubberBand 1s;
     
   
