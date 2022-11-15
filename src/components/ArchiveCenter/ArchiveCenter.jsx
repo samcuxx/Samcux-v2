@@ -6,7 +6,7 @@ import TableRow from "./TableRow";
 const ArchiveCenter = () => {
   return (
     <div className="archiveCenter">
-      <Header />
+      <Header headerTitle="Archive" />
 
       <div className="main-archive">
         <table>

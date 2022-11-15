@@ -40,7 +40,7 @@ const Navbar = () => {
       <div className="container">
         <div className="logo">
           <Link to="/">
-          <img width="50px" src={logo} alt="" />
+          <img className="logo-logo" width="50px" src={logo} alt="" />
           </Link>
         </div>
         <div className={btnState ? "nav-links-mobile" : "links"}>

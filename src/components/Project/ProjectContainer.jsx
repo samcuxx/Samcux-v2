@@ -9,13 +9,22 @@ const ProjectContainer = () => {
       </a>
       <div class="project-right">
         <div class="project-right-content">
-          <h3 className="Project-Featured">Featured Project</h3>
-          <a className="hover-underline-animation" href=""><h2 className="Project-title">Homies Apartment</h2></a>
+          <h3 className="Project-Featured"> Featured Project</h3>
+          <h2 className="Project-title">
+            <a
+              target="__blank"
+              className="homie-link-project"
+              href="https://homiesapartment.netlify.app/"
+            >
+              Homies Apartment
+            </a>
+          </h2>
           <p className="Project-des">
             Renting a new apartment should be transparent and hassle-free.
             Homies Apartment has the industry's most accurate availability and
-            pricing data to help you find the <Link>top deals</Link> ,<Link>the best rent specials</Link> ,
-            and <Link>the true cost of your next apartment</Link> .
+            pricing data to help you find the <Link>top deals</Link> ,
+            <Link>the best rent specials</Link> , and{" "}
+            <Link>the true cost of your next apartment</Link> .
           </p>
           <ul className="tech">
             <li>React</li>

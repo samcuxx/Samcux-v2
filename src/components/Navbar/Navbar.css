@@ -20,7 +20,14 @@ nav .container {
   padding: 20px 40px;
 }
 
+.logo-logo:hover{
+  transition: all 1.26s;
+}
 
+.logo-logo:hover,
+.logo-logo:active{
+  transform: rotate(720deg) ;
+}
 
 .links ul {
   display: flex;

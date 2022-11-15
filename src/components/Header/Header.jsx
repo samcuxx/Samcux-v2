@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import AnimatedLettersFast from '../RuberBand/RubberBand';
 import './Header.css'
-const Header = () => {
+const Header = ({headerTitle}) => {
 
   const [letterClass, setLetterClass] = useState("text-animate-fast");
-  const introName = "Archive".split("");
+  const introName = headerTitle.split("");
  
 
   useEffect(() => {

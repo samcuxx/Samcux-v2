@@ -49,6 +49,7 @@
 }
 
 .folder-logo svg {
+  stroke: var(--green);
   width: 40px;
   height: 40px;
 }

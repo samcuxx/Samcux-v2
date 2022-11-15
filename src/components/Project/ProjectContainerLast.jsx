@@ -10,9 +10,16 @@ const ProjectContainerLast = () => {
       <div class="project-right">
         <div class="project-right-content">
           <h3 className="Project-Featured">Featured Project</h3>
-          <a className="hover-underline-animation" href="https://ceek.netlify.app/">
-            <h2 className="Project-title">Ceek Traning Website</h2>
-          </a>
+          <h2 className="Project-title">
+            <a
+              target="__blank"
+              className="homie-link-project"
+              href="https://ceek.netlify.app/"
+            >
+              Ceek Traning Website
+            </a>
+          </h2>
+        
           <p className="Project-des">
             Do you feel like you're doing a lot of guess work when it comes to
             SEO for your website? Take the SEO training course to change that

@@ -18,7 +18,7 @@ const Introduction = () => {
   return (
     <section className="intro-center-main">
       <div className="center-container">
-        <h3 className="intro-intro">Hi, I’m</h3>
+        <h3 className="intro-intro">Hello, I’m</h3>
         <h1 className="intro-name">
           <AnimatedLettersFast
             letterClass={letterClass}

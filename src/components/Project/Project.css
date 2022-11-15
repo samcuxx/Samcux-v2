@@ -92,6 +92,13 @@
   transition: var(--transition);
 }
 
+.homie-link-project{
+  color: var(--white );
+}
+.homie-link-project:hover{
+  color: var(--green);
+}
+
 @media (max-width: 768px) {
   .projects {
     margin-top: 100px;
