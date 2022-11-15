@@ -87,6 +87,8 @@ p {
   background-color: var(--green);
   opacity: .6;
   border-radius: 12px;
+  box-shadow: 0 10px 30px -15px var(--navy-shadow);
+
 }
 .about-image-cover:hover{
   opacity: 1;
