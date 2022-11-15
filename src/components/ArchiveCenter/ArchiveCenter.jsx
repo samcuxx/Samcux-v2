@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Header/Header";
+import Contact from '../Contact/Contact'
 import "./ArchiveCenter.css";
 import TableRow from "./TableRow";
 const ArchiveCenter = () => {
@@ -28,6 +29,7 @@ const ArchiveCenter = () => {
           </tbody>
         </table>
       </div>
+      <Contact/>
     </div>
   );
 };

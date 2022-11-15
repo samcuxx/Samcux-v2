@@ -1,7 +1,6 @@
 import React from "react";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
-import Footer from "../Footer/Footer";
 import Introduction from "../Introduction/Introduction";
 import OtherProject from "../OtherProjects/OtherProject";
 import Project from "../Project/Project";
@@ -15,7 +14,6 @@ const Center = () => {
       <Project />
       <OtherProject/>
       <Contact/>
-      <Footer/>
     </div>
   );
 };

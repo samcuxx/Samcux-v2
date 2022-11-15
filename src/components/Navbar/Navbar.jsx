@@ -46,7 +46,7 @@ const Navbar = () => {
         <div className={btnState ? "nav-links-mobile" : "links"}>
           <ul>
             <li>
-              <Link to="/#about">
+              <Link to="#about">
                 <span>01.</span>About
               </Link>
             </li>
@@ -56,7 +56,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="/#work">
+              <Link to="#work">
                 <span>03.</span>Work
               </Link>
             </li>
