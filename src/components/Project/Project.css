@@ -88,6 +88,8 @@
 }
 .link a {
   margin-right: 10px;
+  box-shadow: 0 10px 30px -15px var(--navy-shadow);
+  transition: var(--transition);
 }
 
 @media (max-width: 768px) {

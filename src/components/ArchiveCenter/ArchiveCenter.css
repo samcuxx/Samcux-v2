@@ -12,7 +12,7 @@
 
 table {
   
-    margin-top: 50px;
+    /* margin-top: 50px; */
   width: 100%;
   border-collapse: collapse;
   color: var(--slate);
@@ -44,13 +44,9 @@ stroke: var(--green);
 table td svg {
     padding-right:10px;
   width: 20px;
-  height: 20px;
   transition: var(--transition);
 }
 
-tbody tr {
-
-}
 
 tbody tr:hover {
     background-color:var(--light-navy);
@@ -75,15 +71,15 @@ td{
   }
   
   tbody tr .title{
-  vertical-align: middle;
-
+    
     color: var(--lightest-slate);
     font-size: 1.1rem;
     font-weight: 600;
     line-height: 1.25;
-}
-
-tr {
+  }
+  
+  tr {
+  vertical-align: middle;
 
     
 

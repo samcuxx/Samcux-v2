@@ -32,6 +32,8 @@
   transition: all 0.25s;
   border-radius: 5px;
   overflow: auto;
+  box-shadow: 0 10px 30px -15px var(--navy-shadow);
+  transition: var(--transition);
 }
 
 .otherproject-container-ul .otherProjectEach:hover {
