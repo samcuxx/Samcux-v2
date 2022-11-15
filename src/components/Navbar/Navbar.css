@@ -155,7 +155,7 @@ nav .container {
   }
 
   .nav-links-mobile {
-    position: absolute;
+    position: absolute; 
     display: block;
     list-style: none;
     text-align: end;
