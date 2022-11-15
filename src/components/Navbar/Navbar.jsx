@@ -62,7 +62,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link id="button" className="button" download to={Resume}>
+              <Link id="button" className="button" target="_blank" download to={Resume}>
                 Resume
               </Link>
             </li>
