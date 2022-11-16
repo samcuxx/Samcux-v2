@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from "react";
+import { Zoom } from "react-reveal";
 import { Link } from "react-router-dom";
 import AnimatedLettersFast from "../RuberBand/RubberBand";
 
 import "./Introduction.css";
 
 const Introduction = () => {
+
+
+  
   const [letterClass, setLetterClass] = useState("text-animate-fast");
   const introName = "Samuel Amoah.".split("");
   const introTitle = "I build things for the web.".split("");
@@ -17,8 +21,10 @@ const Introduction = () => {
 
   return (
     <section className="intro-center-main">
+      <Zoom>
       <div className="center-container">
         <h3 className="intro-intro">Hello, I’m</h3>
+        
         <h1 className="intro-name">
           <AnimatedLettersFast
             letterClass={letterClass}
@@ -41,6 +47,7 @@ const Introduction = () => {
         </h3>
         <h3 className="intro-button"><a target='-blank' href="https://www.youtube.com/channel/UC9SxlcEpkHFkG0msmzw1MCA">Check out my course !</a> </h3>
       </div>
+      </Zoom>
     </section>
   );
 };
