@@ -7,7 +7,7 @@ const Left = () => {
      
       <div className="main-links">
           <ul>
-          <Fade cascade damping={0.1}>
+          <Fade cascade damping={0.3}>
             <li>
               <a href="https://github.com/lilyoo226">
                 <svg
