@@ -20,6 +20,7 @@ const OtherProject = () => {
         </div>
         <div className="otherproject-container">
           <ul className="otherproject-container-ul">
+  
             {List.slice(0, numberOfItems).map((item) => {
               return (
                 <OtherProjectEach
@@ -27,8 +28,9 @@ const OtherProject = () => {
                   description={item.description}
                   skill={item.skill}
                 />
-              );
-            })}
+                );
+              })}
+    
           </ul>
         </div>
         <div className="otherbtn">
