@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import { Zoom } from "react-reveal";
 import "./GridContainer.css";
 import GridContainerEach from "./GridContainerEach";
@@ -12,9 +13,10 @@ const GridContainer = () => {
         <GridContainerEach />
         <GridContainerEach />
         <GridContainerEach />
-
       </ul>
-        <h3 className="intro-button archive-btn">Archive</h3>
+      <h3 className="intro-button archive-btn">
+        <Link to="/archive">Archive</Link>
+      </h3>
     </div>
   );
 };
