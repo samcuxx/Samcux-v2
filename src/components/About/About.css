@@ -7,6 +7,7 @@
   overflow: hidden;
 }
 .head {
+  
   display: flex;
   -webkit-box-align: center;
   align-items: center;
@@ -15,6 +16,7 @@
   width: 100%;
   font-size: clamp(26px, 5vw, var(--fz-heading));
   white-space: nowrap;
+  overflow: hidden;
 }
 .head span {
   position: relative;
