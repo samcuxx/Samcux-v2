@@ -3,7 +3,7 @@ import WorkLayout from "../../layout/Work/Work";
 import "./Work.css";
 const Work = () => {
   return (
-    <div className="works-page">
+    <div className="content">
       <WorkLayout />
     </div>
   );

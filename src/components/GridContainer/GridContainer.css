@@ -1,0 +1,116 @@
+.grid-container {
+  min-height: 100vh;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.grid-container li {
+  margin-bottom: 5rem;
+  height: 100%;
+  width: 47%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.grid-item {
+    background: var(--light-navy);
+    transition: var(--transition);
+    overflow: auto;
+    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    overflow: hidden;
+}
+.grid-item img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    max-width: 900px;
+    object-fit: cover;
+    transition: all ease-in-out 0.3s;
+}
+.grid-item img:hover {
+    transform: scale(103%);
+    opacity: 0.5;
+}
+
+.h-line{
+    margin: 20px 0;
+    border-top: 1px solid ;
+    width: 100%;
+}
+
+.grid-item-title-top{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grid-item-title-top-head{
+    color: var(--lightest-slate);
+    font-size: 2.2rem;
+}
+
+.grid-item-link a{
+    padding-left: 30px;
+}
+
+.grid-item-link a svg{
+    stroke: var(--lightest-slate);
+}
+.grid-item-link a svg:hover{
+    stroke: var(--green);
+}
+
+.grid-item-title-buttom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid-item-title-buttom-head{
+    color: var(--light-slate);
+    font-size: 1.1rem;
+    opacity: 0.7;
+}
+
+.grid-item-title-buttom-sub{
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .grid-container {
+        flex-direction: column;
+    }
+    .grid-container li {
+        margin-bottom: 5rem;
+        height: 100%;
+        width: 100%;
+        max-width: 500px;
+    }
+    .grid-item img {
+        border-radius: 5px;
+    }
+}
