@@ -19,3 +19,22 @@
     
   }
   
+  
+/* ----------------Media Queries--------------- */
+
+@media (max-width: 1080px) {
+ 
+}
+
+@media (max-width: 768px) {
+
+  .header-title {
+    font-size: 4rem;
+
+    /* text-align: center; */
+    white-space: nowrap;
+  }
+
+  
+}
+

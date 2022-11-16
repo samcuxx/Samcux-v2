@@ -8,7 +8,7 @@ import Right from '../../components/Right/Right'
 
 const About = () => {
   return (
-    <div className="about-layout">
+    <div className="content-main about-layout">
       <Left />
       <Header headerTitle="About Me" des="My, Myself & I" />
       <AboutMain />
