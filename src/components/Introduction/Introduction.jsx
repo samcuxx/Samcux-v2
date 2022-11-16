@@ -38,7 +38,7 @@ const Introduction = () => {
           <h3 className="intro-sub">
             I’m a software engineer specializing in several programming tools to
             deliver quality results to client. I have expert knowledge in
-            <Link>frontend engineering</Link>,<Link> softwares testing</Link>{" "}
+            <Link> frontend engineering</Link>,<Link> softwares testing</Link>{" "}
             and
             <Link> web3</Link> development.
           </h3>
@@ -48,7 +48,7 @@ const Introduction = () => {
               href="https://www.youtube.com/channel/UC9SxlcEpkHFkG0msmzw1MCA"
             >
               Check out my course !
-            </a>{" "}
+            </a>
           </h3>
         </Fade>
       </div>

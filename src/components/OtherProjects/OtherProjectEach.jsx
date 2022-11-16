@@ -12,7 +12,7 @@ const OtherProjectEach = ({
   skill,
 }) => {
   return (
-    <Fade direction="up" damping={0.1} duration="900" cascade>
+    <Fade duration="200" cascade>
     <li className="otherProjectEach" href={siteLink}>
 
         <div className="otherproject-list-link">
@@ -71,7 +71,7 @@ const OtherProjectEach = ({
           </div>
         </div>
         <h3 className="otherproject-list-title">
-          <Link to={siteLink}>{title}</Link>
+          <a href={siteLink}>{title}</a>
         </h3>
         <div className="otherproject-list-des">
           <p>{description}</p>

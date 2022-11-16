@@ -4,6 +4,7 @@
   margin: 0 auto;
   visibility: visible;
   opacity: 1;
+  overflow: hidden;
 }
 .head {
   display: flex;

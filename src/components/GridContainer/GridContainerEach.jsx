@@ -5,7 +5,7 @@ import image from "./thumbnail-gh.jpg";
 
 const GridContainerEach = () => {
   return (
-    <Fade>
+    <Fade direction="up" damping={0.1} duration="500" cascade>
       <li>
         <Link className="grid-item">
           <img src={image} alt="" />

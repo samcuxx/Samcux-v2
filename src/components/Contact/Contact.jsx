@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Bounce, Hinge, Roll } from "react-awesome-reveal";
+import { Bounce } from "react-awesome-reveal";
 import AnimatedLettersFast from "../RuberBand/RubberBand";
 import "./Contact.css";
 const Contact = () => {

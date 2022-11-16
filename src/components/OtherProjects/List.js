@@ -1,111 +1,112 @@
 const List = [
   {
-    title: "deckOfCard-Game",
+    title: "Time to Have More Fun",
     description:
       "this is a game i build using the Deck of Card Api. It is a very Amazing game",
-    projectLinkGithub: "https://github.com/lilyoo226/deckOfCard-Game",
+    projectLinkGithub: `https://github.com/lilyoo226/deckOfCard-Game`,
     siteLink: "https://deckofcardsgame.netlify.app/",
 
     skill: "Html  JavaScript  CSS",
   },
   {
-    title: "deckOfCard-Game",
+    title: "Persional Website V3",
     description:
-      "this is a game i build using the Deck of Card Api. It is a very Amazing game",
-    projectLinkGithub: "https://github.com/lilyoo226/deckOfCard-Game",
-    siteLink: "https://deckofcardsgame.netlify.app/",
+      "Third iteration of my personal website built with Html, CSS , JavaScript and hosted on Netlify .",
+    projectLinkGithub: "https://github.com/lilyoo226/samiportfoliohtml",
+    siteLink: "https://homiedev.netlify.app",
 
     skill: "Html  JavaScript  CSS",
   },
   {
-    title: "deckOfCard-Game",
+    title: "AR Shakir Portfolio",
     description:
-      "this is a game i build using the Deck of Card Api. It is a very Amazing game",
-    projectLinkGithub: "https://github.com/lilyoo226/deckOfCard-Game",
-    siteLink: "https://deckofcardsgame.netlify.app/",
+      "A Website I create that I create and maintain modern websites and applications. I solve all your business problems.",
+    projectLinkGithub: "https://github.com/lilyoo226/Ar-Shakir-WebSite",
+    siteLink: "https://arshirkirportfolio.netlify.app/",
 
     skill: "Html  JavaScript  CSS",
   },
   {
-    title: "deckOfCard-Game",
+    title: "jacek Jeznach Portfolio",
     description:
-      "this is a game i build using the Deck of Card Api. It is a very Amazing game",
-    projectLinkGithub: "https://github.com/lilyoo226/deckOfCard-Game",
-    siteLink: "https://deckofcardsgame.netlify.app/",
+      "This is a clone website of an Award Winning Website on Awwward 2021 .",
+    projectLinkGithub: "https://github.com/lilyoo226/Jace-Portfolio-clone",
+    siteLink: "https://jaceportfolioclone.netlify.app/",
 
     skill: "Html  JavaScript  CSS",
   },
   {
-    title: "deckOfCard-Game",
-    description:
-      "this is a game i build using the Deck of Card Api. It is a very Amazing game",
-    projectLinkGithub: "https://github.com/lilyoo226/deckOfCard-Game",
-    siteLink: "https://deckofcardsgame.netlify.app/",
+    title: "Google Keep Clone",
+    description: "A simple Google Keep clone built with React and Firebase.",
+    projectLinkGithub: "https://github.com/lilyoo226/SamuelKeepere",
+    siteLink: "https://incandescent-sherbet-dedb98.netlify.app/",
 
-    skill: "Html  JavaScript  CSS",
+    skill: "React Firebase Bootstrap",
   },
   {
-    title: "deckOfCard-Game",
+    title: "tindog",
     description:
-      "this is a game i build using the Deck of Card Api. It is a very Amazing game",
-    projectLinkGithub: "https://github.com/lilyoo226/deckOfCard-Game",
-    siteLink: "https://deckofcardsgame.netlify.app/",
+      "A clone tingo website built with React ,Bootstrap and hosted on Netlify .",
+    projectLinkGithub: "https://github.com/lilyoo226/TinDog-website",
+    siteLink: "https://tindogyoo.netlify.app/",
 
-    skill: "Html  JavaScript  CSS",
+    skill: "React  Bootstrap  ",
   },
   {
-    title: "deckOfCard-Game",
+    title: "Persional Website V2.5",
     description:
-      "this is a game i build using the Deck of Card Api. It is a very Amazing game",
-    projectLinkGithub: "https://github.com/lilyoo226/deckOfCard-Game",
-    siteLink: "https://deckofcardsgame.netlify.app/",
+      "Second iteration of my personal website built with React ,Bootstrap and hosted on Netlify .",
+    projectLinkGithub: "https://github.com/lilyoo226",
+    siteLink: "https://samuelamoah.netlify.app/",
 
-    skill: "Html  JavaScript  CSS",
+    skill: "React  CSS",
   },
   {
-    title: "deckOfCard-Game",
+    title: "Homie VS Code Theme",
     description:
-      "this is a game i build using the Deck of Card Api. It is a very Amazing game",
-    projectLinkGithub: "https://github.com/lilyoo226/deckOfCard-Game",
-    siteLink: "https://deckofcardsgame.netlify.app/",
+      "Second iteration of my personal Visual Studio Code built with JavaScript, Azure and Available of Microsoft MarketPlace.",
+    projectLinkGithub: "https://github.com/lilyoo226/new-vscode-theme",
+    siteLink: "https://marketplace.visualstudio.com/items?itemName=homie.homie",
 
-    skill: "Html  JavaScript  CSS",
+    skill: "JavaScript  Azure  npm",
   },
   {
-    title: "deckOfCard-Game",
+    title: "BBQ Login Page",
     description:
-      "this is a game i build using the Deck of Card Api. It is a very Amazing game",
-    projectLinkGithub: "https://github.com/lilyoo226/deckOfCard-Game",
-    siteLink: "https://deckofcardsgame.netlify.app/",
+      "BBQ Login Page built with JavaScript ,Html , Css and hosted on Netlify .",
+    projectLinkGithub: "https://github.com/lilyoo226/BBQ-SITE",
+    siteLink: "https://homiebbqq.netlify.app/",
 
-    skill: "Html  JavaScript  CSS",
+    skill: "JavaScript ,Html , Css",
   },
   {
-    title: "deckOfCard-Game",
+    title: "Are you Bored, Try this out",
     description:
-      "this is a game i build using the Deck of Card Api. It is a very Amazing game",
-    projectLinkGithub: "https://github.com/lilyoo226/deckOfCard-Game",
-    siteLink: "https://deckofcardsgame.netlify.app/",
+      "This is a Bored Game i Build When i was starting my web Development journey with JavaScript ,Html , Css and hosted on Netlify .",
+    projectLinkGithub: "https://github.com/lilyoo226/BORED-BOT",
+    siteLink: "https://homiebored.netlify.app/",
 
-    skill: "Html  JavaScript  CSS",
+    skill: "JavaScript ,Html , Css",
   },
   {
-    title: "deckOfCard-Game",
-    description:
-      "this is a game i build using the Deck of Card Api. It is a very Amazing game",
-    projectLinkGithub: "https://github.com/lilyoo226/deckOfCard-Game",
-    siteLink: "https://deckofcardsgame.netlify.app/",
+    title: "Persional Website V1",
 
-    skill: "Html  JavaScript  CSS",
+    description:
+      "First iteration of my personal website built with Html, CSS , JavaScript and hosted on Netlify .",
+    projectLinkGithub: "https://github.com/lilyoo226/Website-Portfolio",
+    siteLink: "https://homierich.netlify.app/",
+
+    skill: "JavaScript ,Html , Css",
   },
   {
-    title: "deckOfCard-Game",
+    title: "Dice Game",
     description:
-      "this is a game i build using the Deck of Card Api. It is a very Amazing game",
-    projectLinkGithub: "https://github.com/lilyoo226/deckOfCard-Game",
-    siteLink: "https://deckofcardsgame.netlify.app/",
+      "This is a Dice Game i Build When i was starting my web Development journey with JavaScript ,Html , Css and hosted on Netlify .",
 
-    skill: "Html  JavaScript  CSS",
+    projectLinkGithub: "https://github.com/lilyoo226/Dice-Game",
+    siteLink: "https://dicegame-homie.netlify.app/",
+
+    skill: "JavaScript ,Html , Css",
   },
 ];
 

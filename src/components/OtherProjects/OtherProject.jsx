@@ -3,7 +3,7 @@ import "./OtherProject.css";
 import OtherProjectEach from "./OtherProjectEach";
 import List from "./List";
 import { Link } from "react-router-dom";
-import { Bounce } from "react-awesome-reveal";
+import { Bounce, Fade } from "react-awesome-reveal";
 const OtherProject = () => {
   const [showMore, setshowMore] = useState(false);
   // const [btnText, setbtnText] = useState('View More')
@@ -23,15 +23,19 @@ const OtherProject = () => {
         </div>
         <div className="otherproject-container">
           <ul className="otherproject-container-ul">
-            {List.slice(0, numberOfItems).map((item) => {
-              return (
-                <OtherProjectEach
-                  title={item.title}
-                  description={item.description}
-                  skill={item.skill}
-                />
-              );
-            })}
+            <Fade direction="up" damping={0.1} duration="500" cascade>
+              {List.slice(0, numberOfItems).map((item) => {
+                return (
+                  <OtherProjectEach
+                    siteLink={item.siteLink}
+                    projectLinkGithub={item.projectLinkGithub}
+                    title={item.title}
+                    description={item.description}
+                    skill={item.skill}
+                  />
+                );
+              })}
+            </Fade>
           </ul>
         </div>
         <div className="otherbtn">

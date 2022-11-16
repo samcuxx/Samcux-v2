@@ -8,20 +8,20 @@ const Project = () => {
   return (
     <div id="work" className="projects">
         <h2 className="head">
-      <Slide direction="left"  cascade>
+      <Slide direction="left" duration="300" cascade>
           <div className="span">
             <span>02.</span>
           </div>
           <div className="head-name">Some Things I’ve Built</div>
       </Slide>
-      <Slide direction="right">
+      <Slide direction="right" duration="300">
 
           <div className="hline"></div>
       </Slide>
         </h2>
       <div className="section">
         <div className="project-main-main">
-          <Fade direction="up" duration="500" damping={0.2}>
+          <Fade  damping={0.2}>
             <ProjectContainer />
             <ProjectFlip />
             <ProjectContainerLast />
