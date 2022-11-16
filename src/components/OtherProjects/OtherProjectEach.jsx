@@ -1,5 +1,5 @@
 import React from "react";
-import { Bounce, Fade, Slide, Zoom } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 // import { Zoom } from "react-reveal";
 
 import { Link } from "react-router-dom";

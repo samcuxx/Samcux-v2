@@ -1,3 +1,10 @@
+.GridContainer-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .grid-container {
   min-height: 100vh;
   padding: 0;
@@ -83,7 +90,10 @@
 
 
 
-
+.archive-btn{
+    display: inline-block;
+    text-align: center;
+}
 
 
 

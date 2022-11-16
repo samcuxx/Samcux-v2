@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Bounce } from "react-awesome-reveal";
+import { Bounce, Hinge, Roll } from "react-awesome-reveal";
 import AnimatedLettersFast from "../RuberBand/RubberBand";
 import "./Contact.css";
 const Contact = () => {
@@ -20,13 +20,16 @@ const Contact = () => {
         <p className="intro-intro">
           <span>03.</span> What’s Next?
         </p>
+        <Bounce>
+
         <h2>
         <AnimatedLettersFast
             letterClass={letterClass}
             strArray={getInTouch}
             idx={15}
-          />
+            />
           </h2>
+            </Bounce>
         <p className="contact-des">
           Although I’m not currently looking for any new opportunities, my inbox
           is always open. Whether you have a question or just want to say hi,

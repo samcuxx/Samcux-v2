@@ -46,18 +46,18 @@ const Navbar = () => {
           <ul>
             <Fade direction="down" duration={200}  cascade damping={0.8}>
               <li>
+                <Link to="/">
+                  <span>01.</span>Home
+                </Link>
+              </li>
+              <li>
                 <Link to="/about">
-                  <span>01.</span>About
+                  <span>02.</span>About
                 </Link>
               </li>
               <li>
                 <Link to="/work">
-                  <span>02.</span>Portfolio
-                </Link>
-              </li>
-              <li>
-                <Link to="/archive">
-                  <span>03.</span>Archive
+                  <span>03.</span>Portfolio
                 </Link>
               </li>
               <li>
@@ -76,6 +76,7 @@ const Navbar = () => {
                   Resume
                 </Link>
               </li>
+              </Fade>
 
               <div
                 id="menu-btn"
@@ -88,7 +89,6 @@ const Navbar = () => {
                   <div class="bar3"></div>
                 </div>
               </div>
-            </Fade>
           </ul>
         </div>
       </div>

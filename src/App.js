@@ -8,11 +8,13 @@ import About from "./pages/About/About";
 import Work from "./pages/Work/Work";
 import Contact from "./pages/Contact/Contact";
 
+
 function App() {
   return (
     <BrowserRouter>
 
       <Navbar />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

@@ -3,7 +3,7 @@ import "./OtherProject.css";
 import OtherProjectEach from "./OtherProjectEach";
 import List from "./List";
 import { Link } from "react-router-dom";
-import { Bounce, Zoom } from "react-awesome-reveal";
+import { Bounce } from "react-awesome-reveal";
 const OtherProject = () => {
   const [showMore, setshowMore] = useState(false);
   // const [btnText, setbtnText] = useState('View More')
