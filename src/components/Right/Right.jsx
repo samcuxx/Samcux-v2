@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import AnimatedLettersFast from "../RuberBand/RubberBand";
-import Slide from "react-reveal/Slide";
+// import Slide from "react-reveal/Slide";
 
 import './Right.css'
 const Right = () => {
@@ -17,7 +17,7 @@ const Right = () => {
 
   return (
     <div className="right">
-      <Slide right>
+      {/* <Slide right> */}
       <div className="right-container">
         <div className="email-text">
         <AnimatedLettersFast
@@ -28,7 +28,7 @@ const Right = () => {
           </div>
         <div className="vline"></div>
       </div>
-      </Slide>
+      {/* </Slide> */}
     </div>
   );
 };

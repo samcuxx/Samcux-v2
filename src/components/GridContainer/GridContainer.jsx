@@ -1,12 +1,12 @@
 import React from "react";
-import { Zoom } from "react-reveal";
+// import { Zoom } from "react-reveal";
 import image from "./thumbnail-gh.jpg";
 import "./GridContainer.css";
 import { Link } from "react-router-dom";
 const GridContainer = () => {
   return (
     <ul className="grid-container">
-      <Zoom>
+      {/* <Zoom> */}
 
      
       <li>
@@ -519,7 +519,7 @@ const GridContainer = () => {
           </div>
         </Link>
       </li>
-      </Zoom>
+      {/* </Zoom> */}
     </ul>
   );
 };

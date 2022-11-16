@@ -1,5 +1,5 @@
 import React from "react";
-import { Zoom } from "react-reveal";
+// import { Zoom } from "react-reveal";
 
 import { Link } from "react-router-dom";
 
@@ -11,7 +11,7 @@ const OtherProjectEach = ({
   skill,
 }) => {
   return (
-    <Zoom>
+    // <Zoom>
       <a className="otherProjectEach" href={siteLink}>
         <div className="otherproject-list-link">
           <div className="folder-logo">
@@ -78,8 +78,8 @@ const OtherProjectEach = ({
         <ul className="otherproject-footer">
           <div>{skill}</div>
         </ul>
-      </a>{" "}
-    </Zoom>
+      </a>
+    // </Zoom>
   );
 };
 

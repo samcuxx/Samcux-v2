@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Zoom } from "react-reveal";
+// import { Zoom } from "react-reveal";
 import { Link } from "react-router-dom";
 import AnimatedLettersFast from "../RuberBand/RubberBand";
 
@@ -21,7 +21,7 @@ const Introduction = () => {
 
   return (
     <section className="intro-center-main">
-      <Zoom>
+      {/* <Zoom> */}
       <div className="center-container">
         <h3 className="intro-intro">Hello, I’m</h3>
         
@@ -47,7 +47,7 @@ const Introduction = () => {
         </h3>
         <h3 className="intro-button"><a target='-blank' href="https://www.youtube.com/channel/UC9SxlcEpkHFkG0msmzw1MCA">Check out my course !</a> </h3>
       </div>
-      </Zoom>
+      {/* </Zoom> */}
     </section>
   );
 };

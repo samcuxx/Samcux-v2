@@ -1,11 +1,11 @@
 import React from "react";
-import Slide from "react-reveal/Slide";
+// import Slide from "react-reveal/Slide";
 
 import "./Left.css";
 const Left = () => {
   return (
     <div className="left">
-      <Slide left>
+      {/* <Slide left> */}
       <div className="main-links">
           <ul>
             <li>
@@ -106,7 +106,7 @@ const Left = () => {
           </ul>
         <div className="vline"></div>
       </div>
-        </Slide>
+        {/* </Slide> */}
     </div>
   );
 };
