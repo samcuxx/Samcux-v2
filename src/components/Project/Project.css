@@ -135,15 +135,17 @@
 
   .project-left {
     max-width: 95%;
-
+    background-color: var(--green);
+    
   }
   .project-left img {
-    opacity: 0.7;
+  height: 350px;
+    opacity: 0.6;
   }
   .project-left,.project-left-flip {
     /* display: none; */
     position: absolute;
-    opacity: 0.1;
+    opacity: 0.3;
     box-shadow: 0 10px 30px -15px var(--navy-shadow);
 
   }
