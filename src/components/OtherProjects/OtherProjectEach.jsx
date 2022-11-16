@@ -1,4 +1,5 @@
 import React from "react";
+import { Bounce, Fade, Slide, Zoom } from "react-awesome-reveal";
 // import { Zoom } from "react-reveal";
 
 import { Link } from "react-router-dom";
@@ -11,8 +12,9 @@ const OtherProjectEach = ({
   skill,
 }) => {
   return (
-    // <Zoom>
-      <a className="otherProjectEach" href={siteLink}>
+    <Fade direction="up" damping={0.1} duration="900" cascade>
+    <li className="otherProjectEach" href={siteLink}>
+
         <div className="otherproject-list-link">
           <div className="folder-logo">
             <svg
@@ -78,8 +80,8 @@ const OtherProjectEach = ({
         <ul className="otherproject-footer">
           <div>{skill}</div>
         </ul>
-      </a>
-    // </Zoom>
+
+      </li></Fade>
   );
 };
 

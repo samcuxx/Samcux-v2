@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Bounce } from "react-awesome-reveal";
 import AnimatedLettersFast from "../RuberBand/RubberBand";
 import "./Contact.css";
 const Contact = () => {
@@ -32,8 +33,8 @@ const Contact = () => {
           I’ll try my best to get back to you!
         </p>
         <a href="mailto:samuellove228@gmail.com">
-        <h3 className="intro-button contact-btn">Say Hello</h3></a>
-      </div>
+       <Bounce> <h3 className="intro-button contact-btn">Say Hello</h3></Bounce> </a>
+       </div>
     </section>
   );
 };

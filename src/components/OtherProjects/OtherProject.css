@@ -23,7 +23,7 @@
   align-items: center;
   justify-content: center;
 }
-.otherproject-container-ul .otherProjectEach {
+ .otherProjectEach {
   margin: 6px;
   max-width:250px;
   height: 100%;
@@ -36,7 +36,7 @@
   transition: var(--transition);
 }
 
-.otherproject-container-ul .otherProjectEach:hover {
+.otherProjectEach:hover {
   margin-top: -2px;
   color: var(--green);
 }
