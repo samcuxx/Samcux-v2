@@ -2,7 +2,7 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 // import { Zoom } from "react-reveal";
 
-import { Link } from "react-router-dom";
+
 
 const OtherProjectEach = ({
   title,

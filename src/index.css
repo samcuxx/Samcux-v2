@@ -58,8 +58,8 @@
 html {
   box-sizing: border-box;
   width: 100%;
-  scroll-behavior: smooth;
   -webkit-scroll-behavior: smooth;
+  scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   cursor: auto;
 }
