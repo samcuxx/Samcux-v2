@@ -60,12 +60,12 @@ const AboutMain = () => {
           </Fade>
         </div>
         <div className="about-main-right">
-          <Zoom direction="right" duration="900">
+          <Fade>
 
           <div className="about-image-cover">
             <img className="about-main-right-image" src={profile} alt="" />
           </div>
-          </Zoom>
+          </Fade>
         </div>
       </div>
     </div>

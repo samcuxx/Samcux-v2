@@ -21,7 +21,6 @@
 }
 .project-left:hover {
   opacity: 1;
- 
 }
 .project-left img {
   /* position: relative; */
@@ -92,14 +91,25 @@
   transition: var(--transition);
 }
 
-.homie-link-project{
-  color: var(--white );
+.homie-link-project {
+  color: var(--white);
 }
-.homie-link-project:hover{
+.homie-link-project:hover {
   color: var(--green);
 }
-
+.hiddin{
+  display: none;
+}
 @media (max-width: 768px) {
+  .hiddin{
+    display:block;
+  }
+  .unhiddin{
+    display:none;
+  }
+  .project-left-flip{
+    display: none;
+  }
   .projects {
     margin-top: 100px;
     display: block;
@@ -119,13 +129,20 @@
     align-items: center;
   }
 
-  .project-left {
-    display: none;
+  .project-left img {
+    opacity: 0.7;
+  }
+  .project-left,.project-left-flip {
+    /* display: none; */
+    position: absolute;
+    opacity: 0.1;
+    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+
   }
   .project-right-content {
     border-radius: var(--border-radius);
-    background-color: var(--light-navy);
-    background-color: rgb(4, 34, 43);
+    /* background-color: var(--light-navy);
+    background-color: rgb(4, 34, 43); */
     /* background: url("./dell.jpg") no-repeat center / cover; */
     /* border: 1px solid red; */
     display: flex;
