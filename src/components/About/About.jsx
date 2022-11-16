@@ -7,13 +7,13 @@ const About = () => {
   return (
     <section id="about" className="about">
       <h2 className="head">
-        <Slide direction="left" duration="300" cascade>
+        <Slide direction="left" cascade>
           <div className="span">
             <span>01.</span>
           </div>
           <div className="head-name">About Me</div>
         </Slide>
-        <Slide direction="right" duration="300" cascade>
+        <Slide direction="right"  cascade>
           <div className="hline"></div>
         </Slide>
       </h2>

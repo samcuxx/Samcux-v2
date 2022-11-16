@@ -8,13 +8,13 @@ const Project = () => {
   return (
     <div id="work" className="projects">
         <h2 className="head">
-      <Slide direction="left" duration="300" cascade>
+      <Slide direction="left" cascade>
           <div className="span">
             <span>02.</span>
           </div>
           <div className="head-name">Some Things I’ve Built</div>
       </Slide>
-      <Slide direction="right" duration="300">
+      <Slide direction="right">
 
           <div className="hline"></div>
       </Slide>
