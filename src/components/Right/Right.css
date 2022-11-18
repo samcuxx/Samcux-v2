@@ -18,6 +18,7 @@
   writing-mode: vertical-rl;
   transition: all 0.25s;
   cursor: pointer;
+color: var(--lightest-slate);
 }
 
 .email-text:hover {
@@ -30,7 +31,7 @@
   width: 1px;
   height: 90px;
   margin: 0 auto;
-  background-color: var(--light-slate);
+  background-color: var(--lightest-slate);
 }
 
 /* ----------------Media Queries--------------- */

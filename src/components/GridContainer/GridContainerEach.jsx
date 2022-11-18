@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade } from "react-awesome-reveal";
+// import { Fade } from "react-awesome-reveal";
 
 const GridContainerEach = ({
   title,
@@ -10,7 +10,7 @@ const GridContainerEach = ({
   projectImage,
 }) => {
   return (
-    <Fade direction="up">
+    // <Fade direction="up">
     <li>
       <a className="grid-item" href={siteLink}>
         {console.log(projectImage)}
@@ -64,7 +64,8 @@ const GridContainerEach = ({
           </div>
         </div>
       </a>
-    </li></Fade>
+    </li>
+    // </Fade>
   );
 };
 

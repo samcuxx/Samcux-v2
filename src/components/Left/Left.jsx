@@ -5,9 +5,9 @@ const Left = () => {
   return (
     <div className="left">
       <div className="main-links">
-     <Slide  direction="up" delay="2"  cascade>
+     <Slide  direction="up"  cascade>
           <ul>
-          <Fade cascade direction="up">
+          <Fade duration="200" cascade direction="up">
             <li>
               <a href="https://github.com/lilyoo226">
                 <svg

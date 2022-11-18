@@ -13,7 +13,7 @@ const Preloader = () => {
 
 
   return (
-    <div className=""> 
+    <div> 
     {
     loading && 
     (

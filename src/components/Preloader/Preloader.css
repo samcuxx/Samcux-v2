@@ -9,7 +9,7 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #fbf9f5;
+	background: var(--navy);
 }
 
 .spinner {
@@ -27,7 +27,7 @@
 	width: 1rem;
 	height: 1rem;
 	border-radius: 100%;
-	background-color: #338ff9;
+	background-color: var(--green);
 	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 }
