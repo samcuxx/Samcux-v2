@@ -7,12 +7,13 @@ import Footer from "./components/Footer/Footer";
 import About from "./pages/About/About";
 import Work from "./pages/Work/Work";
 import Contact from "./pages/Contact/Contact";
-
+import Preloader from './components/Preloader/Preloader'
 
 function App() {
   return (
     <BrowserRouter>
 
+      {/* <Preloader /> */}
       <Navbar />
 
       <Routes>

@@ -15,8 +15,8 @@ const List = [
     title: "Ceek Traning Website",
     description:
       "Do you feel like you're doing a lot of guess work when it comes to SEO for your website...",
-    projectLinkGithub: `https://github.com/lilyoo226/homiesApartmentWebsite`,
-    siteLink: "https://homiesapartment.netlify.app/",
+    projectLinkGithub: `https://github.com/lilyoo226/Ceek-Website`,
+    siteLink: "https://ceek.netlify.app/",
 
     skill: "React Bootstrap Gsap",
     projectImage: "p7",
