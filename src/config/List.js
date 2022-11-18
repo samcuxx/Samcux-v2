@@ -1,4 +1,26 @@
+
+
 const List = [
+  {
+    title: "Homies Apartment",
+    description:
+      "Renting a new apartment should be transparent and hassle-free. ... ",
+    projectLinkGithub: `https://github.com/lilyoo226/homiesApartmentWebsite`,
+    siteLink: "https://homiesapartment.netlify.app/",
+
+    skill: "React Bootstrap Gsap",
+    projectImage:"p8",
+  },
+  {
+    title: "Ceek Traning Website",
+    description:
+      "Do you feel like you're doing a lot of guess work when it comes to SEO for your website...",
+    projectLinkGithub: `https://github.com/lilyoo226/homiesApartmentWebsite`,
+    siteLink: "https://homiesapartment.netlify.app/",
+
+    skill: "React Bootstrap Gsap",
+    projectImage: "p7",
+  },
   {
     title: "Time to Have More Fun",
     description:
@@ -7,6 +29,7 @@ const List = [
     siteLink: "https://deckofcardsgame.netlify.app/",
 
     skill: "Html  JavaScript  CSS",
+    projectImage: "p6",
   },
   {
     title: "Persional Website V3",
@@ -16,6 +39,7 @@ const List = [
     siteLink: "https://homiedev.netlify.app",
 
     skill: "Html  JavaScript  CSS",
+    projectImage: "p10",
   },
   {
     title: "AR Shakir Portfolio",
@@ -25,6 +49,7 @@ const List = [
     siteLink: "https://arshirkirportfolio.netlify.app/",
 
     skill: "Html  JavaScript  CSS",
+    projectImage: "p1",
   },
   {
     title: "jacek Jeznach Portfolio",
@@ -34,6 +59,7 @@ const List = [
     siteLink: "https://jaceportfolioclone.netlify.app/",
 
     skill: "Html  JavaScript  CSS",
+    projectImage: "p2",
   },
   {
     title: "Google Keep Clone",
@@ -42,6 +68,7 @@ const List = [
     siteLink: "https://incandescent-sherbet-dedb98.netlify.app/",
 
     skill: "React Firebase Bootstrap",
+    projectImage: "p5",
   },
   {
     title: "tindog",
@@ -51,6 +78,7 @@ const List = [
     siteLink: "https://tindogyoo.netlify.app/",
 
     skill: "React  Bootstrap  ",
+    projectImage: "p9",
   },
   {
     title: "Persional Website V2.5",
@@ -60,6 +88,7 @@ const List = [
     siteLink: "https://samuelamoah.netlify.app/",
 
     skill: "React  CSS",
+    projectImage: "p12",
   },
   {
     title: "Homie VS Code Theme",
@@ -69,6 +98,7 @@ const List = [
     siteLink: "https://marketplace.visualstudio.com/items?itemName=homie.homie",
 
     skill: "JavaScript  Azure  npm",
+    projectImage: "p4",
   },
   {
     title: "BBQ Login Page",
@@ -78,6 +108,7 @@ const List = [
     siteLink: "https://homiebbqq.netlify.app/",
 
     skill: "JavaScript ,Html , Css",
+    projectImage: "p13",
   },
   {
     title: "Are you Bored, Try this out",
@@ -87,6 +118,7 @@ const List = [
     siteLink: "https://homiebored.netlify.app/",
 
     skill: "JavaScript ,Html , Css",
+    projectImage: "p14",
   },
   {
     title: "Persional Website V1",
@@ -97,6 +129,7 @@ const List = [
     siteLink: "https://homierich.netlify.app/",
 
     skill: "JavaScript ,Html , Css",
+    projectImage: "p3",
   },
   {
     title: "Dice Game",
@@ -107,6 +140,7 @@ const List = [
     siteLink: "https://dicegame-homie.netlify.app/",
 
     skill: "JavaScript ,Html , Css",
+    projectImage: "p15",
   },
 ];
 

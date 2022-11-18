@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Rotate } from "react-awesome-reveal";
+import { Rotate, Slide } from "react-awesome-reveal";
 import AnimatedLettersFast from "../RuberBand/RubberBand";
 // import Slide from "react-reveal/Slide";
 
@@ -19,7 +19,7 @@ const Right = () => {
   return (
     <div className="right">
       <div className="right-container">
-      <Rotate direction="right" delay="3">
+      <Slide direction="up" delay="3">
         <div className="email-text">
         <AnimatedLettersFast
             letterClass={letterClass}
@@ -28,7 +28,7 @@ const Right = () => {
           />
           </div>
         <div className="vline"></div>
-      </Rotate>
+      </Slide>
       </div>
     </div>
   );

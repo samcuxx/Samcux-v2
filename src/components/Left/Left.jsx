@@ -1,13 +1,13 @@
 import React from "react";
-import { Fade, Roll} from "react-awesome-reveal";
+import {Slide, Fade, Roll} from "react-awesome-reveal";
 import "./Left.css";
 const Left = () => {
   return (
     <div className="left">
       <div className="main-links">
-     <Roll direction="right" delay="2" cascade>
+     <Slide  direction="up" delay="2"  cascade>
           <ul>
-          <Fade cascade damping={0.4}>
+          <Fade cascade direction="up">
             <li>
               <a href="https://github.com/lilyoo226">
                 <svg
@@ -106,7 +106,7 @@ const Left = () => {
             </Fade>
           </ul>
         <div className="vline"></div>
-      </Roll>
+      </Slide>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./OtherProject.css";
 import OtherProjectEach from "./OtherProjectEach";
-import List from "./List";
+import List from '../../config/List'
 import { Link } from "react-router-dom";
 import { Bounce, Fade } from "react-awesome-reveal";
 const OtherProject = () => {
