@@ -21,9 +21,10 @@ const GridContainer = () => {
         })}
       </ul>
 
-      <h3 className="intro-button archive-btn">
+      
+      <Link to="/archive" className="intro-button archive-btn">
         <Link to="/archive">Archive</Link>
-      </h3>
+      </Link>
     </div>
   );
 };

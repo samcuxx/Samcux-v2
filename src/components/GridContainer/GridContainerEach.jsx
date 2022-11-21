@@ -58,7 +58,7 @@ const GridContainerEach = ({
           <div className="h-line"></div>
           <div className="grid-item-title-buttom">
             <h2 className="grid-item-title-buttom-head">
-              {description}
+            {description.slice(0 , 50)+" ..."}
             </h2>
             <p className="grid-item-title-buttom-sub">2022</p>
           </div>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Rotate, Slide } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 import AnimatedLettersFast from "../RuberBand/RubberBand";
 // import Slide from "react-reveal/Slide";
 

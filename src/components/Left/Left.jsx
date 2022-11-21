@@ -1,5 +1,5 @@
 import React from "react";
-import {Slide, Fade, Roll} from "react-awesome-reveal";
+import {Slide, Fade} from "react-awesome-reveal";
 import "./Left.css";
 const Left = () => {
   return (

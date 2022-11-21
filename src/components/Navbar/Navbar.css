@@ -3,7 +3,8 @@ nav {
   top: 0px;
   z-index: 11;
   width: 100%;
-  background-color: #031e1f07;
+  /* background-color: #031e1f07; */
+  background-color:rgba(10, 33, 47,0.85);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   transition: var(--transition);
@@ -119,6 +120,16 @@ nav .container {
   transition: var(--transition);
   margin-top: 50px;
 }
+
+#button:hover {
+  background-color: #a1d91213;
+
+}
+#button:active {
+  background-color: #a1d9122a;
+
+}
+
 
 #menu-btn {
   display: none;

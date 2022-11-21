@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import "./Project.css";
 import ProjectContainer from "./ProjectContainer";
 import ProjectContainerLast from "./ProjectContainerLast";
@@ -8,16 +8,16 @@ const Project = () => {
   return (
     <div id="work" className="projects">
         <h2 className="head">
-      <Slide direction="left" cascade>
+        <Fade direction="left" duration="300" cascade>
           <div className="span">
             <span>02.</span>
           </div>
           <div className="head-name">Some Things I’ve Built</div>
-      </Slide>
-      <Slide direction="right">
+      </Fade>
+      <Fade direction="right">
 
           <div className="hline"></div>
-      </Slide>
+      </Fade>
         </h2>
       <div className="section">
         <div className="project-main-main">

@@ -21,7 +21,7 @@
   --blue: #57cbff;
   --font-sans: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
     system-ui, sans-serif;
-  --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  --font-mono:  "Roboto Mono","SF Mono", "Fira Code", "Fira Mono", monospace;
   --fz-xxs: 12px;
   --fz-xs: 13px;
   --fz-sm: 14px;
@@ -45,13 +45,26 @@
   --ham-after-active: bottom 0.1s ease-out,
     transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
 
-  --green: #a0d912;
+  /* --green: #a0d912;
   --navy: #022620;
   --light-navy: #1b4958;
   --lightest-slate: #b7c7db;
   --light-slate: #6797c9;
   --slate: #7da9cf;
   --main: #7da9cf;
+  --dark-slate: #5b7c99; */
+
+
+
+  --green: rgb(124, 255, 112);
+  --navy: #022620;
+  --navy: #0a212f;
+  --light-navy: #162e3e;
+  --lightest-slate: #b7c7db;
+  --lightest-slate: #9ac1e3;
+  --light-slate: #9fbad7;
+  --slate: #688cac;
+  --main: #678aa9e5;
   --dark-slate: #5b7c99;
 }
 
@@ -83,7 +96,7 @@ body {
 /* Scroll bar */
 
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 5px;
 }
 ::-webkit-scrollbar-track {
   background: var(--navy);

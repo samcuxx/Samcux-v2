@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade, Zoom } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import profile from "../../assets/images/profileImage.jpg";
 
 const AboutMain = () => {
@@ -8,7 +8,7 @@ const AboutMain = () => {
       <div className="about-main">
         <div className="about-main-left">
           <div className="about-main-left-top">
-            <Fade direction="up" damping={0.2} duration="600" cascade>
+            <Fade direction="up" damping={0.2} duration="400" cascade>
               <p>
                 My name is Samuel Amoah. I am a full stack developer with over 4
                 years of rock-solid experience in building scalable products.
@@ -17,16 +17,23 @@ const AboutMain = () => {
                 Besides participating in many tech programs where I have been
                 trained to have both technical and soft skills, I have acquired
                 high level programming knowledge from taking online courses on{" "}
-                <a className="hover-underline-animation" href="#">
+                <a
+                  className="hover-underline-animation"
+                  href="https://www.udemy.com/"
+                >
                   {" "}
                   Udemy
                 </a>
-                <a className="hover-underline-animation" href="#">
+                <a
+                  className="hover-underline-animation"
+                  href="https://www.pluralsight.com/
+"
+                >
                   {" "}
                   Pluralsight
                 </a>{" "}
                 and{" "}
-                <a className="hover-underline-animation" href="#">
+                <a className="hover-underline-animation" href="https://www.udacity.com/">
                   Udacity
                 </a>
                 , bagging a Node.js certificate, Expert in JavaScript IQ test
@@ -42,7 +49,7 @@ const AboutMain = () => {
               </p>
             </Fade>
           </div>
-          <Fade direction="up">
+          <Fade direction="up" damping={0.2} duration="400" cascade>
             <div className="about-main-left-buttom">
               <ul>
                 <li>JavaScript</li>
@@ -51,7 +58,7 @@ const AboutMain = () => {
                 <li>React</li>
                 <li>Node.js</li>
                 <li>Wordpress</li>
-                <li>TypeScript</li>
+                <li>Express</li>
                 <li>Html</li>
                 <li>CSS</li>
                 <li>EJS</li>
@@ -61,10 +68,9 @@ const AboutMain = () => {
         </div>
         <div className="about-main-right">
           <Fade>
-
-          <div className="about-image-cover">
-            <img className="about-main-right-image" src={profile} alt="" />
-          </div>
+            <div className="about-image-cover">
+              <img className="about-main-right-image" src={profile} alt="" />
+            </div>
           </Fade>
         </div>
       </div>

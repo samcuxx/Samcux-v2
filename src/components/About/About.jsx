@@ -1,21 +1,21 @@
 import React from "react";
-import {  Slide } from "react-awesome-reveal";
+import {  Fade } from "react-awesome-reveal";
 import "./About.css";
 import AboutMain from "./AboutMain";
 
 const About = () => {
   return (
-    <section id="about" className="about">
+    <section id="about"  className="about">
       <h2 className="head">
-        <Slide direction="left" cascade>
+        <Fade direction="left" duration="300" cascade>
           <div className="span">
             <span>01.</span>
           </div>
           <div className="head-name">About Me</div>
-        </Slide>
-        <Slide direction="right"  cascade>
+        </Fade>
+        <Fade direction="right"  cascade>
           <div className="hline"></div>
-        </Slide>
+        </Fade>
       </h2>
       <AboutMain />
     </section>

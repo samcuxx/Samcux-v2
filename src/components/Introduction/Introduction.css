@@ -19,12 +19,14 @@
   color: var(--green);
   font-family: var(--font-mono);
   font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
+  font-weight: 400;
 }
 
 .intro-name {
   color: var(--lightest-slate);
   font-weight: 700;
   font-size: 4.3rem;
+
 }
 
 .intro-main {
@@ -64,7 +66,7 @@
 }
 
 .intro-button:hover {
-  opacity: 0.8;
+  background-color: #7cff7013;
 }
 
 @media (max-width: 768px) {

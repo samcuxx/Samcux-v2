@@ -1,30 +1,37 @@
 import React from "react";
 
-const TableRow = () => {
+const TableRow = (
+  {
+    title,
+    description,
+    projectLinkGithub,
+    siteLink,
+    skill,
+    projectImage,
+    year
+  }
+) => {
   return (
     <tr>
-      <td class="overline year">2021</td>
-      <td class="title"> Philadelphia Inquirer Sports Scoreboards</td>
-      <td class="company hide-on-mobile">
+      <td class="overline year">{year}</td>
+      <td class="title"> {title}</td>
+      {/* <td class="company hide-on-mobile">
         <span>Upstatement</span>
-      </td>
+      </td> */}
       <td class="tech hide-on-mobile">
+       
         <span>
-          Next.js<span class="separator">·</span>
+          {skill}<span class="separator"></span>
         </span>
-
-        <span>
-          Formik<span class="separator">·</span>
-        </span>
-        <span>
-          Yup<span class="separator">·</span>
-        </span>
-        <span>Vercel</span>
+        {/* <span>
+         <span class="separator"></span>
+        </span> */}
+        
       </td>
       <td class="links">
         <div>
           <a
-            href="https://www.koala.health/"
+            href={siteLink}
             aria-label="External Link"
             rel="noopener noreferrer"
             target="_blank"
@@ -45,6 +52,9 @@ const TableRow = () => {
               <polyline points="15 3 21 3 21 9"></polyline>
               <line x1="10" y1="14" x2="21" y2="3"></line>
             </svg>
+            </a>
+            <a href={projectLinkGithub}>
+              
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"

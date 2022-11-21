@@ -10,6 +10,7 @@ const List = [
 
     skill: "React Bootstrap Gsap",
     projectImage:"p8",
+    year:2022,
   },
   {
     title: "Ceek Traning Website",
@@ -20,6 +21,8 @@ const List = [
 
     skill: "React Bootstrap Gsap",
     projectImage: "p7",
+    year:2022,
+
   },
   {
     title: "Time to Have More Fun",
@@ -30,6 +33,8 @@ const List = [
 
     skill: "Html  JavaScript  CSS",
     projectImage: "p6",
+    year:2022,
+
   },
   {
     title: "Persional Website V3",
@@ -40,6 +45,7 @@ const List = [
 
     skill: "Html  JavaScript  CSS",
     projectImage: "p10",
+    year:2022,
   },
   {
     title: "AR Shakir Portfolio",
@@ -50,6 +56,8 @@ const List = [
 
     skill: "Html  JavaScript  CSS",
     projectImage: "p1",
+    year:2022,
+
   },
   {
     title: "jacek Jeznach Portfolio",
@@ -60,6 +68,8 @@ const List = [
 
     skill: "Html  JavaScript  CSS",
     projectImage: "p2",
+    year:2022,
+
   },
   {
     title: "Google Keep Clone",
@@ -69,6 +79,8 @@ const List = [
 
     skill: "React Firebase Bootstrap",
     projectImage: "p5",
+    year:2022,
+
   },
   {
     title: "tindog",
@@ -79,6 +91,8 @@ const List = [
 
     skill: "React  Bootstrap  ",
     projectImage: "p9",
+    year:2022,
+
   },
   {
     title: "Persional Website V2.5",
@@ -89,6 +103,8 @@ const List = [
 
     skill: "React  CSS",
     projectImage: "p12",
+    year:2022,
+
   },
   {
     title: "Homie VS Code Theme",
@@ -99,6 +115,8 @@ const List = [
 
     skill: "JavaScript  Azure  npm",
     projectImage: "p4",
+    year:2022,
+
   },
   {
     title: "BBQ Login Page",
@@ -109,6 +127,8 @@ const List = [
 
     skill: "JavaScript ,Html , Css",
     projectImage: "p13",
+    year:2022,
+
   },
   {
     title: "Are you Bored, Try this out",
@@ -119,6 +139,8 @@ const List = [
 
     skill: "JavaScript ,Html , Css",
     projectImage: "p14",
+    year:2022,
+
   },
   {
     title: "Persional Website V1",
@@ -130,6 +152,8 @@ const List = [
 
     skill: "JavaScript ,Html , Css",
     projectImage: "p3",
+    year:2022,
+
   },
   {
     title: "Dice Game",
@@ -141,6 +165,8 @@ const List = [
 
     skill: "JavaScript ,Html , Css",
     projectImage: "p15",
+    year:2022,
+
   },
 ];
 

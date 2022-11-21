@@ -10,6 +10,8 @@ import Contact from "./pages/Contact/Contact";
 // import Preloader from './components/Preloader/Preloader'
 
 function App() {
+
+  
   return (
     <BrowserRouter>
 
