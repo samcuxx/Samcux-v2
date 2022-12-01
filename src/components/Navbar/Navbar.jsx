@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 import "./Navbar.css";
-import Resume from "../../assets/pdf/cv.pdf";
+import Resume from "../../assets/pdf/resume.pdf";
 import { useScroll } from "./UseScroll";
 import { Bounce, Fade } from "react-awesome-reveal";
 const Navbar = () => {
