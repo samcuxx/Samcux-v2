@@ -1,3 +1,12 @@
+<div align="center">
+<a href="https://samcux.com"><img src="./public/logo.png" width="60px"></a>
+</div>
+
+<div align="center">
+<h1>samcux.com</h1>
+<p>My personal portfolio/blog website</p>
+</div>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
