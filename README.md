@@ -1,9 +1,9 @@
 <div align="center">
-<a href="https://samcux.com"><img src="./public/logo.png" width="60px"></a>
+<a href="[https://samcux.com](https://sammi.netlify.app/)"><img src="./public/logo.png" width="60px"></a>
 </div>
 
 <div align="center">
-<h1>samcux.com</h1>
+<h1>SamCux V2</h1>
 <p>My personal portfolio/blog website</p>
 </div>
 
