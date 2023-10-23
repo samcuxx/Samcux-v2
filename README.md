@@ -6,7 +6,35 @@
 <h1>SamCux V2</h1>
 <p>My personal portfolio/blog website</p>
 </div>
+Overview
 
+This is my second personal website, serving as a platform to exhibit my projects. Constructed approximately two years ago, it was a pivotal venture coinciding with my foray into learning ReactJS.
+
+
+
+[Object]
+
+Stack/Technologies
+
+React: Markup
+
+CSS: Styling
+
+Netlify: Hosting
+
+React Awesome Reveal: Animations
+
+Features and Functionality
+
+Responsive Design: Ensuring optimal display on all devices.
+
+Open Sourced: Publicly accessible template; repository available for reference.
+
+RubberBand Effect: The landing page boasts an engaging RubberBand Effect on the text.
+
+Milestones
+
+My ambition is to craft a portfolio that reflects the essence of Brittnery Chang's website. I am resolutely committed to developing my unique version, surpassing prevailing standards.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
